@@ -151,7 +151,7 @@ void HUlib_drawTextLine(hu_textline_t *l, dboolean external)
     {
         unsigned char   c = toupper(l->l[i]);
 
-        if (c != '\n' && c != ' ' && ((c >= l->sc && c <= '_') || l->l[i] == '°'))
+        if (c != '\n' && c != ' ' && ((c >= l->sc && c <= '_') || l->l[i] == '\xB0'))
         {
             int j = c - '!';
 
@@ -168,7 +168,7 @@ void HUlib_drawTextLine(hu_textline_t *l, dboolean external)
 #endif
             }
 
-            if (l->l[i] == '°')
+            if (l->l[i] == '\xB0')
                 if (STCFN034)
                     continue;
                 else

@@ -1,4 +1,4 @@
-﻿/*
+/*
 ========================================================================
 
                            D O O M  R e t r o
@@ -39,569 +39,569 @@
 char *wilv[] =
 {
     // 0 = 'A'
-    "       jjjjjj        jj[YQQSaj      jb\\_\\abW[dj    ja\\Yajj_Y[ajû   j\\Y["
-    "jjj_Y\\_jû  jaWWajUU[Y[ajû  j\\WYjj_b_Y\\ajû jaWUajjjj_[[_jû j[QSjûûûja[Yaj"
-    "ûj\\WQajû  ja[Wajûj\\\\[jûû  jba_bjûjjjjjû   jjjjjjû ûûûûû    ûûûûûû",
+    "       jjjjjj        jj[YQQSaj      jb\\\\_\\\\abW[dj    ja\\\\Yajj_Y[aj\xfb   j\\\\Y["
+    "jjj_Y\\\\_j\xfb  jaWWajUU[Y[aj\xfb  j\\\\WYjj_b_Y\\\\aj\xfb jaWUajjjj_[[_j\xfb j[QSj\xfb\xfb\xfbja[Yaj"
+    "\xfbj\\\\WQaj\xfb  ja[Waj\xfbj\\\\\\\\[j\xfb\xfb  jba_bj\xfbjjjjj\xfb   jjjjjj\xfb \xfb\xfb\xfb\xfb\xfb    \xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 1 = 'B'
-    "jjjjjjjjjjjjj   jYSQSUPPQQPW_j  j___ad____SSU_j jjjjjjjjjaSWS_jûjjjjjjjjja["
-    "SPbjûj[QQQQPQQQWSbjûûj[[UY\\\\_\\\\WPbjû j[\\S[jjjjaSSP[j j[\\UYjjjjaQWY[jû"
-    "j\\[WYPQPPQUWYbjûjba_a[\\YY\\[[_jûûjjjjjjjjjjjjjûû  ûûûûûûûûûûûûû  ",
+    "jjjjjjjjjjjjj   jYSQSUPPQQPW_j  j___ad____SSU_j jjjjjjjjjaSWS_j\xfbjjjjjjjjja["
+    "SPbj\xfbj[QQQQPQQQWSbj\xfb\xfbj[[UY\\\\\\\\_\\\\\\\\WPbj\xfb j[\\\\S[jjjjaSSP[j j[\\\\UYjjjjaQWY[j\xfb"
+    "j\\\\[WYPQPPQUWYbj\xfbjba_a[\\\\YY\\\\[[_j\xfb\xfbjjjjjjjjjjjjj\xfb\xfb  \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb  ",
 
     // 2 = 'C'
-    "    jjjjjjjjjj   jjb\\\\YQQQQYjû jbYdddd\\a\\_ajû j\\_dfjjjjjjjjûjb\\_djûûû"
-    "ûûûûûûj_\\adjû        j_\\abjû        jb\\bdjû         j\\bd\\jjjjjjjj  jdb"
-    "dbUQUQSQYjû  jjgbb\\baaa_jû   ûjjjjjjjjjjû     ûûûûûûûûûû",
+    "    jjjjjjjjjj   jjb\\\\\\\\YQQQQYj\xfb jbYdddd\\\\a\\\\_aj\xfb j\\\\_dfjjjjjjjj\xfbjb\\\\_dj\xfb\xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb\xfbj_\\\\adj\xfb        j_\\\\abj\xfb        jb\\\\bdj\xfb         j\\\\bd\\\\jjjjjjjj  jdb"
+    "dbUQUQSQYj\xfb  jjgbb\\\\baaa_j\xfb   \xfbjjjjjjjjjj\xfb     \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 3 = 'D'
-    "jjjjjjjjjjj     h\\QQQQPPQUajj   jba___\\\\_YYWbj  jjjjjjjjj_WUYjû jjjjjjûû"
-    "ûjWQYbj j\\WW\\jû  jWQU_jûj_[\\_jû  jWQS_jûj\\[[_jû  jUQSbjûj\\YY\\jjjjUUQ["
-    "jûûj\\[WUQPPUWS[bjû ja__\\\\\\\\__ajjûû jjjjjjjjjjjûûû   ûûûûûûûûûûû    ",
+    "jjjjjjjjjjj     h\\\\QQQQPPQUajj   jba___\\\\\\\\_YYWbj  jjjjjjjjj_WUYj\xfb jjjjjj\xfb\xfb"
+    "\xfbjWQYbj j\\\\WW\\\\j\xfb  jWQU_j\xfbj_[\\\\_j\xfb  jWQS_j\xfbj\\\\[[_j\xfb  jUQSbj\xfbj\\\\YY\\\\jjjjUUQ["
+    "j\xfb\xfbj\\\\[WUQPPUWS[bj\xfb ja__\\\\\\\\\\\\\\\\__ajj\xfb\xfb jjjjjjjjjjj\xfb\xfb\xfb   \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb    ",
 
     // 4 = 'E'
-    "    jjjjjjjjjj   jj_UYSSUUS\\jû jd[YYabadd_bjû j_WW_jjjjjjjjûjaYWW_jjjjjjjj"
-    "ûj_YWWWWUUUQQ_jûj_YYWYadbda_bjûjaWWU_jjjjjjjjû j[QS_jjjjjjjjû jd_SWSQQQSU[j"
-    "û  jja\\__a_aaajû   ûjjjjjjjjjjû     ûûûûûûûûûû",
+    "    jjjjjjjjjj   jj_UYSSUUS\\\\j\xfb jd[YYabadd_bj\xfb j_WW_jjjjjjjj\xfbjaYWW_jjjjjjjj"
+    "\xfbj_YWWWWUUUQQ_j\xfbj_YYWYadbda_bj\xfbjaWWU_jjjjjjjj\xfb j[QS_jjjjjjjj\xfb jd_SWSQQQSU[j"
+    "\xfb  jja\\\\__a_aaaj\xfb   \xfbjjjjjjjjjj\xfb     \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 5 = 'F'
-    "    jjjjjjjj   jjaUPPPQ[jû jdaY___\\\\ajû j\\aWajjjjjjûjb\\\\Wjjjjûûûûj_[WU"
-    "PPYjû   j_YUU_\\ajû   j\\[W_jjjjû   j_YS\\jûûûû   j_YQ\\jû      jaa[ajû    "
-    "  jjjjjjû       ûûûûûû      ",
+    "    jjjjjjjj   jjaUPPPQ[j\xfb jdaY___\\\\\\\\aj\xfb j\\\\aWajjjjjj\xfbjb\\\\\\\\Wjjjj\xfb\xfb\xfb\xfbj_[WU"
+    "PPYj\xfb   j_YUU_\\\\aj\xfb   j\\\\[W_jjjj\xfb   j_YS\\\\j\xfb\xfb\xfb\xfb   j_YQ\\\\j\xfb      jaa[aj\xfb    "
+    "  jjjjjj\xfb       \xfb\xfb\xfb\xfb\xfb\xfb      ",
 
     // 6 = 'G'
-    "    jjjjjjjjjjjj   jjb\\\\WUQQQQU_jû jd\\_dfdd\\a\\__bjû jY\\_djjjjjjjjjjûj"
-    "b[\\_jûûûûûûûûûûûja\\\\ajû   jjjjjj ja\\\\ajû   jYPP\\jûjaW\\bjû   j\\QP_jû"
-    " jS\\bdjjjjj_QP_jû jd[bd[QPQS\\QP_jû  jjfgbb\\baa[[ajû   ûjjjjjjjjjjjjû    "
-    " ûûûûûûûûûûûû",
+    "    jjjjjjjjjjjj   jjb\\\\\\\\WUQQQQU_j\xfb jd\\\\_dfdd\\\\a\\\\__bj\xfb jY\\\\_djjjjjjjjjj\xfbj"
+    "b[\\\\_j\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfbja\\\\\\\\aj\xfb   jjjjjj ja\\\\\\\\aj\xfb   jYPP\\\\j\xfbjaW\\\\bj\xfb   j\\\\QP_j\xfb"
+    " jS\\\\bdjjjjj_QP_j\xfb jd[bd[QPQS\\\\QP_j\xfb  jjfgbb\\\\baa[[aj\xfb   \xfbjjjjjjjjjjjj\xfb    "
+    " \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 7 = 'H'
-    "jjjjjj   jjjjjj j\\UU[jû  j[QQ[jûja_\\\\jû  j\\YWajûja\\\\_jû  j\\WU_jûja\\"
-    "\\_jjjjj\\WQ_jûja\\\\\\YUQQSYWQ[jûja[[aaa____WQ[jûj_Y[ajjjjj_UQ[jûj_WYajûûû"
-    "j_UQ[jûj_Y[_jû  j\\SS[jûja__bjû  ja\\[ajûjhjjhjû  jjjjjjû ûûûûûû   ûûûûûû",
+    "jjjjjj   jjjjjj j\\\\UU[j\xfb  j[QQ[j\xfbja_\\\\\\\\j\xfb  j\\\\YWaj\xfbja\\\\\\\\_j\xfb  j\\\\WU_j\xfbja\\\\"
+    "\\\\_jjjjj\\\\WQ_j\xfbja\\\\\\\\\\\\YUQQSYWQ[j\xfbja[[aaa____WQ[j\xfbj_Y[ajjjjj_UQ[j\xfbj_WYaj\xfb\xfb\xfb"
+    "j_UQ[j\xfbj_Y[_j\xfb  j\\\\SS[j\xfbja__bj\xfb  ja\\\\[aj\xfbjhjjhj\xfb  jjjjjj\xfb \xfb\xfb\xfb\xfb\xfb\xfb   \xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 8 = 'I'
-    "jjjjjj j[SS\\jûj__\\bjûj\\a\\ajûj_aaajûj_a_ajûj_b_bjûj\\_bbjûj\\[_ajûj\\W\\"
-    "_jûja_aajûjjjjjjû ûûûûûû",
+    "jjjjjj j[SS\\\\j\xfbj__\\\\bj\xfbj\\\\a\\\\aj\xfbj_aaaj\xfbj_a_aj\xfbj_b_bj\xfbj\\\\_bbj\xfbj\\\\[_aj\xfbj\\\\W\\\\"
+    "_j\xfbja_aaj\xfbjjjjjj\xfb \xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 9 = 'J'
-    "     jjjjjj      j[QUajû     jbY_djû     jbaabjû     jbabbjû     ja_\\bjû  "
-    "   j_\\\\ajû     jb_Y_jûjjjjj_b\\Y_jûjYSUSQ__\\jjûj_\\__[bbjjûûjjjjjjjjûûû "
-    " ûûûûûûûû   ",
+    "     jjjjjj      j[QUaj\xfb     jbY_dj\xfb     jbaabj\xfb     jbabbj\xfb     ja_\\\\bj\xfb  "
+    "   j_\\\\\\\\aj\xfb     jb_Y_j\xfbjjjjj_b\\\\Y_j\xfbjYSUSQ__\\\\jj\xfbj_\\\\__[bbjj\xfb\xfbjjjjjjjj\xfb\xfb\xfb "
+    " \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb   ",
 
     // 10 = 'K'
-    "jjjjjj   jjjjjj  jYQPWjû jPPPP\\jû j[YSUjûjPUYWajûû jYSUYjjQUUU\\jûû  j[QP["
-    "jQWUS_jûû   j_SQUWY[UUjûû    j\\SQ[j_USSQj     j[UQ[jj\\SQSWj    j\\WQYjûj"
-    "\\QS\\Uj   jYWSYjû j[U\\[Wj  j_\\\\_jû  jbdabYj jjjjjjû   jjjjjjû ûûûûûû   "
-    " ûûûûûû",
+    "jjjjjj   jjjjjj  jYQPWj\xfb jPPPP\\\\j\xfb j[YSUj\xfbjPUYWaj\xfb\xfb jYSUYjjQUUU\\\\j\xfb\xfb  j[QP["
+    "jQWUS_j\xfb\xfb   j_SQUWY[UUj\xfb\xfb    j\\\\SQ[j_USSQj     j[UQ[jj\\\\SQSWj    j\\\\WQYj\xfbj"
+    "\\\\QS\\\\Uj   jYWSYj\xfb j[U\\\\[Wj  j_\\\\\\\\_j\xfb  jbdabYj jjjjjj\xfb   jjjjjj\xfb \xfb\xfb\xfb\xfb\xfb\xfb   "
+    " \xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 11 = 'L'
-    "jjjjjj      jaUQ[jû     jd_Ybjû     jbaabjû     jbbabjû     jb\\_ajû     ja"
-    "\\\\_jû     j_Y_bjû     j_Y\\b_jjjjj  j\\__QSUSYjû jjbb[__\\_jû  ûjjjjjjjjû"
-    "    ûûûûûûûû",
+    "jjjjjj      jaUQ[j\xfb     jd_Ybj\xfb     jbaabj\xfb     jbbabj\xfb     jb\\\\_aj\xfb     ja"
+    "\\\\\\\\_j\xfb     j_Y_bj\xfb     j_Y\\\\b_jjjjj  j\\\\__QSUSYj\xfb jjbb[__\\\\_j\xfb  \xfbjjjjjjjj\xfb"
+    "    \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 12 = 'M'
-    "  jjj      jjj    jWPYj    jUPSj  j\\QPWYj  jW\\UY\\j j[SSYb[jjS_[Y\\bjûj\\"
-    "SW\\bbUUW[W[\\bjûjYSWYdba_WYU\\adjûjYSU[dba\\YWSaaejûjYUS\\jdaY_j[abbjûjWUU"
-    "[jja_jj\\aabjûjWSS[jûjjûj\\b__jûj\\\\\\_jû ûûjadbajûjjjjjjû   jjjjjjû ûûûûû"
-    "û    ûûûûûû",
+    "  jjj      jjj    jWPYj    jUPSj  j\\\\QPWYj  jW\\\\UY\\\\j j[SSYb[jjS_[Y\\\\bj\xfbj\\\\"
+    "SW\\\\bbUUW[W[\\\\bj\xfbjYSWYdba_WYU\\\\adj\xfbjYSU[dba\\\\YWSaaej\xfbjYUS\\\\jdaY_j[abbj\xfbjWUU"
+    "[jja_jj\\\\aabj\xfbjWSS[j\xfbjj\xfbj\\\\b__j\xfbj\\\\\\\\\\\\_j\xfb \xfb\xfbjadbaj\xfbjjjjjj\xfb   jjjjjj\xfb \xfb\xfb\xfb\xfb\xfb"
+    "\xfb    \xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 13 = 'N'
-    "  jjj     jjjjjj  jPPaj    j\\¨P\\hûj\\UWUaj   jY¨U\\jûj_YWWYaj  jY¨W_jûj_W"
-    "WUYYaj j[¨U_jûjaYYYYYYajj[¨S_jûjaYWUYYUQajY¨S_jûjaYU[jaQQUUQ¨S_jûjaWS\\jjaQ"
-    "WUQ¨S_jûjbWS\\jûjaSQQ¨Qbjûjb_\\ajû jja\\Y\\jûûjjjjjjû  ûjjjjûû  ûûûûûû    û"
-    "ûûû  ",
+    "  jjj     jjjjjj  jPPaj    j\\\\\xa8P\\\\h\xfbj\\\\UWUaj   jY\xa8U\\\\j\xfbj_YWWYaj  jY\xa8W_j\xfbj_W"
+    "WUYYaj j[\xa8U_j\xfbjaYYYYYYajj[\xa8S_j\xfbjaYWUYYUQajY\xa8S_j\xfbjaYU[jaQQUUQ\xa8S_j\xfbjaWS\\\\jjaQ"
+    "WUQ\xa8S_j\xfbjbWS\\\\j\xfbjaSQQ\xa8Qbj\xfbjb_\\\\aj\xfb jja\\\\Y\\\\j\xfb\xfbjjjjjj\xfb  \xfbjjjj\xfb\xfb  \xfb\xfb\xfb\xfb\xfb\xfb    \xfb"
+    "\xfb\xfb\xfb  ",
 
     // 14 = 'O'
-    "    jjjjjjjjj       jj_SPPPPPU_jj    jbPWW\\\\bbaY[\\bj   jQSWbjjjjjd[\\Wjû"
-    " jaUW\\jûûûûûj_\\Yaj j\\UW\\jû    j_a_ajûj\\UU\\jû    j_bbajûj\\USYjû    ja"
-    "bbajû jQQSWjjjjjY_aajûû jb[QWPPPSU\\a\\djû   jj__\\[_dabbjjûû    ûjjjjjjjjj"
-    "ûûû       ûûûûûûûûû    ",
+    "    jjjjjjjjj       jj_SPPPPPU_jj    jbPWW\\\\\\\\bbaY[\\\\bj   jQSWbjjjjjd[\\\\Wj\xfb"
+    " jaUW\\\\j\xfb\xfb\xfb\xfb\xfbj_\\\\Yaj j\\\\UW\\\\j\xfb    j_a_aj\xfbj\\\\UU\\\\j\xfb    j_bbaj\xfbj\\\\USYj\xfb    ja"
+    "bbaj\xfb jQQSWjjjjjY_aaj\xfb\xfb jb[QWPPPSU\\\\a\\\\dj\xfb   jj__\\\\[_dabbjj\xfb\xfb    \xfbjjjjjjjjj"
+    "\xfb\xfb\xfb       \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb    ",
 
     // 15 = 'P'
-    "jjjjjjjjjjjjj   j\\PQPPPPPQQQaj  ja\\_\\___\\[[UQaj jjjjjjjjjj\\WSYjûjjjjjj"
-    "jjjj\\UW\\jûj[QPPPPPSQSSWSjûj\\UYY\\aa_[SSSjûûj[UWWjjjjjjjjûû jYWUYjûûûûûûû"
-    "û  jYWUYjû         j_aa_jû         jjjjjjû          ûûûûûû         ",
+    "jjjjjjjjjjjjj   j\\\\PQPPPPPQQQaj  ja\\\\_\\\\___\\\\[[UQaj jjjjjjjjjj\\\\WSYj\xfbjjjjjj"
+    "jjjj\\\\UW\\\\j\xfbj[QPPPPPSQSSWSj\xfbj\\\\UYY\\\\aa_[SSSj\xfb\xfbj[UWWjjjjjjjj\xfb\xfb jYWUYj\xfb\xfb\xfb\xfb\xfb\xfb\xfb"
+    "\xfb  jYWUYj\xfb         j_aa_j\xfb         jjjjjj\xfb          \xfb\xfb\xfb\xfb\xfb\xfb         ",
 
     // 16 = 'Q'
-    "    jjjjjjjjj       jj_SPPPPPU_jj    jbPWW\\\\bbaY[\\bj   jQSWbjjjjjd[\\Wjû"
-    " jaUW\\jûûûûûj_\\Yaj j\\UW\\jû    j_a_ajûj\\UU\\jû   jj_bbajûj\\USYjû  jbba"
-    "bbajû jQQSWjjjj\\Y_aajûû jb[QWPPPSU\\a\\daj   jj__\\[_dabbab\\jû   ûjjjjjjj"
-    "jjjjjjû     ûûûûûûûûûûûûû",
+    "    jjjjjjjjj       jj_SPPPPPU_jj    jbPWW\\\\\\\\bbaY[\\\\bj   jQSWbjjjjjd[\\\\Wj\xfb"
+    " jaUW\\\\j\xfb\xfb\xfb\xfb\xfbj_\\\\Yaj j\\\\UW\\\\j\xfb    j_a_aj\xfbj\\\\UU\\\\j\xfb   jj_bbaj\xfbj\\\\USYj\xfb  jbba"
+    "bbaj\xfb jQQSWjjjj\\\\Y_aaj\xfb\xfb jb[QWPPPSU\\\\a\\\\daj   jj__\\\\[_dabbab\\\\j\xfb   \xfbjjjjjjj"
+    "jjjjjj\xfb     \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 17 = 'R'
-    "jjjjjjjjjjjjj   j\\PQPPPPPQQQaj  ja\\_\\___\\[[UQaj jjjjjjjjjj\\WSYjûjjjjjj"
-    "jjjj\\UW\\jûj[QPPPPPSQSSWjjûj\\UYY\\aa_[SSUjjûj[UWWjjjjaQSU[jûjYWUYjûûûjQSS"
-    "\\jûjYWUYjû  jSQQYjûj_aa_jû  j\\a__jûjjjjjjû  jjjjjjû ûûûûûû   ûûûûûû",
+    "jjjjjjjjjjjjj   j\\\\PQPPPPPQQQaj  ja\\\\_\\\\___\\\\[[UQaj jjjjjjjjjj\\\\WSYj\xfbjjjjjj"
+    "jjjj\\\\UW\\\\j\xfbj[QPPPPPSQSSWjj\xfbj\\\\UYY\\\\aa_[SSUjj\xfbj[UWWjjjjaQSU[j\xfbjYWUYj\xfb\xfb\xfbjQSS"
+    "\\\\j\xfbjYWUYj\xfb  jSQQYj\xfbj_aa_j\xfb  j\\\\a__j\xfbjjjjjj\xfb  jjjjjj\xfb \xfb\xfb\xfb\xfb\xfb\xfb   \xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 18 = 'S'
-    "  jjjjjjjjjjjjj  jYSQQQQUYU[_ajûjbUU\\bdbaaafhdjûj_UU\\jjjjjjjjjjûj_US\\jjj"
-    "jjjjjûûûjbUU[SQQQUUYaj   jadada_add\\\\bj   jjjjjjjjd\\_ajûjjjjjjjjjjb\\_aj"
-    "ûj\\QPPSQSYWY\\\\bjûjaa_adaba__adjûûjjjjjjjjjjjjjûû  ûûûûûûûûûûûûû  ",
+    "  jjjjjjjjjjjjj  jYSQQQQUYU[_aj\xfbjbUU\\\\bdbaaafhdj\xfbj_UU\\\\jjjjjjjjjj\xfbj_US\\\\jjj"
+    "jjjjj\xfb\xfb\xfbjbUU[SQQQUUYaj   jadada_add\\\\\\\\bj   jjjjjjjjd\\\\_aj\xfbjjjjjjjjjjb\\\\_aj"
+    "\xfbj\\\\QPPSQSYWY\\\\\\\\bj\xfbjaa_adaba__adj\xfb\xfbjjjjjjjjjjjjj\xfb\xfb  \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb  ",
 
     // 19 = 'T'
-    "jjjjjjjjjjjj j\\QPPPPQQQWjûjbbYYPSY_bbjûjjjjWQS[jjjjû ûûjWSYYjûûûû   jWPW\\"
-    "jû      jWPW\\jû      jWQU\\jû      jWSS[jû      jYSSYjû      j_\\\\_jû    "
-    "  jjjjjjû       ûûûûûû   ",
+    "jjjjjjjjjjjj j\\\\QPPPPQQQWj\xfbjbbYYPSY_bbj\xfbjjjjWQS[jjjj\xfb \xfb\xfbjWSYYj\xfb\xfb\xfb\xfb   jWPW\\\\"
+    "j\xfb      jWPW\\\\j\xfb      jWQU\\\\j\xfb      jWSS[j\xfb      jYSSYj\xfb      j_\\\\\\\\_j\xfb    "
+    "  jjjjjj\xfb       \xfb\xfb\xfb\xfb\xfb\xfb   ",
 
     // 20 = 'U'
-    "jjjjjj    jjjjjj j[QQ_jû   j\\UQYjûjabbbjû   ja_WYjûjbbbajû   j_[[[jûjbbbaj"
-    "û   j_\\\\\\jûjdbaajû   jbaa_jûjdba_jû   jbba_jûjbba\\jû   jba_bjû jbaYUjjj"
-    "ja_\\\\jûû jf\\\\QPQUU\\[Ydjû   jjdaabfd_djjûû    ûjjjjjjjjûûû       ûûûûûû"
-    "ûû    ",
+    "jjjjjj    jjjjjj j[QQ_j\xfb   j\\\\UQYj\xfbjabbbj\xfb   ja_WYj\xfbjbbbaj\xfb   j_[[[j\xfbjbbbaj"
+    "\xfb   j_\\\\\\\\\\\\j\xfbjdbaaj\xfb   jbaa_j\xfbjdba_j\xfb   jbba_j\xfbjbba\\\\j\xfb   jba_bj\xfb jbaYUjjj"
+    "ja_\\\\\\\\j\xfb\xfb jf\\\\\\\\QPQUU\\\\[Ydj\xfb   jjdaabfd_djj\xfb\xfb    \xfbjjjjjjjj\xfb\xfb\xfb       \xfb\xfb\xfb\xfb\xfb\xfb"
+    "\xfb\xfb    ",
 
     // 21 = 'V'
-    "jjjjjj    jjjjjj j[PPYjû   jYQPPjûj_UW[jû   jYUU\\jû jYWW_j  j\\SWWjûû j\\W"
-    "U\\jû jYUW\\jû   jYYY_jj\\WUSjûû   j\\UYY__SWQ\\jû     jUWWQQUUQjûû     j\\"
-    "UYUQWU\\jû       jUY[USQjûû       j_bbd\\[jû         jjjjjjûû          ûûûû"
-    "ûû     ",
+    "jjjjjj    jjjjjj j[PPYj\xfb   jYQPPj\xfbj_UW[j\xfb   jYUU\\\\j\xfb jYWW_j  j\\\\SWWj\xfb\xfb j\\\\W"
+    "U\\\\j\xfb jYUW\\\\j\xfb   jYYY_jj\\\\WUSj\xfb\xfb   j\\\\UYY__SWQ\\\\j\xfb     jUWWQQUUQj\xfb\xfb     j\\\\"
+    "UYUQWU\\\\j\xfb       jUY[USQj\xfb\xfb       j_bbd\\\\[j\xfb         jjjjjj\xfb\xfb          \xfb\xfb\xfb\xfb"
+    "\xfb\xfb     ",
 
     // 22 = 'W'
-    "jjjjj      jjjjj jYQWjû     j_Y\\jûj[W[jû jj  jdfajûj[W[jûjQQj jbd_jûj[W[jj"
-    "Q[\\Qjjab_jûj\\[[jQ\\[[[Uja__jûj[UYSU[[Y\\bb_\\_jûjYSSQS\\db_bb\\_\\jûjYWUQ"
-    "Sdjjbaa\\_\\jûjaWSQ\\jûûjaY\\\\_jû jbadjûû  jfdfjûû  jjjûû    jjjûû    ûûû "
-    "     ûûû  ",
+    "jjjjj      jjjjj jYQWj\xfb     j_Y\\\\j\xfbj[W[j\xfb jj  jdfaj\xfbj[W[j\xfbjQQj jbd_j\xfbj[W[jj"
+    "Q[\\\\Qjjab_j\xfbj\\\\[[jQ\\\\[[[Uja__j\xfbj[UYSU[[Y\\\\bb_\\\\_j\xfbjYSSQS\\\\db_bb\\\\_\\\\j\xfbjYWUQ"
+    "Sdjjbaa\\\\_\\\\j\xfbjaWSQ\\\\j\xfb\xfbjaY\\\\\\\\_j\xfb jbadj\xfb\xfb  jfdfj\xfb\xfb  jjj\xfb\xfb    jjj\xfb\xfb    \xfb\xfb\xfb "
+    "     \xfb\xfb\xfb  ",
 
     // 23 = 'X'
-    "jjjjj      jjjjj jUUPPj    jQQPQjûjb_WQSj  jQWUW_jûjja[USSjjSWYW_jûû ûjaYQW"
-    "PPWUY_jûû    jaQ[YWYY_jûû     jQW[QYYQ_jû     jaYQWPPWUY_j   jja[USSjjSWYW_"
-    "j  jb_WQSjûûjQWUW_j jUUPPjûû  jQQPQjûjjjjjûû    jjjjjû ûûûûû      ûûûûû",
+    "jjjjj      jjjjj jUUPPj    jQQPQj\xfbjb_WQSj  jQWUW_j\xfbjja[USSjjSWYW_j\xfb\xfb \xfbjaYQW"
+    "PPWUY_j\xfb\xfb    jaQ[YWYY_j\xfb\xfb     jQW[QYYQ_j\xfb     jaYQWPPWUY_j   jja[USSjjSWYW_"
+    "j  jb_WQSj\xfb\xfbjQWUW_j jUUPPj\xfb\xfb  jQQPQj\xfbjjjjj\xfb\xfb    jjjjj\xfb \xfb\xfb\xfb\xfb\xfb      \xfb\xfb\xfb\xfb\xfb",
 
     // 24 = 'Y'
-    "jjjjj      jjjjj jUUPPj    jQQPQjûjb_WQSj  jQWUW_jûjja[USSjjSWYW_jûû ûjaYQW"
-    "PPWUY_jûû    jaQ[YYYY_jûû      j\\[YYW\\jûû        j_YY[jûû         jaYWYjû"
-    "          jb\\WYjû          jba__jû          jjjjjjû           ûûûûûû     ",
+    "jjjjj      jjjjj jUUPPj    jQQPQj\xfbjb_WQSj  jQWUW_j\xfbjja[USSjjSWYW_j\xfb\xfb \xfbjaYQW"
+    "PPWUY_j\xfb\xfb    jaQ[YYYY_j\xfb\xfb      j\\\\[YYW\\\\j\xfb\xfb        j_YY[j\xfb\xfb         jaYWYj\xfb"
+    "          jb\\\\WYj\xfb          jba__j\xfb          jjjjjj\xfb           \xfb\xfb\xfb\xfb\xfb\xfb     ",
 
     // 25 = 'Z'
-    "jjjjjjjjjjjjjjjj jWPPPQPPPPQPQQ[jûj_\\[\\_\\YPWWUUY\\jûjjjjjjjjSWWUUUYjû ûû"
-    "ûûjjUQWWUSajjû   jjUPUWY[ajjûûû jjUQSQUSajjûûû  j[PUUUQajjûûû    jYSSWSjjjj"
-    "jjjjjj jYQQSWQPPPQPPPWjûj__[\\\\\\[Y\\_\\[_djûjjjjjjjjjjjjjjjjû ûûûûûûûûûûû"
-    "ûûûûû",
+    "jjjjjjjjjjjjjjjj jWPPPQPPPPQPQQ[j\xfbj_\\\\[\\\\_\\\\YPWWUUY\\\\j\xfbjjjjjjjjSWWUUUYj\xfb \xfb\xfb"
+    "\xfb\xfbjjUQWWUSajj\xfb   jjUPUWY[ajj\xfb\xfb\xfb jjUQSQUSajj\xfb\xfb\xfb  j[PUUUQajj\xfb\xfb\xfb    jYSSWSjjjj"
+    "jjjjjj jYQQSWQPPPQPPPWj\xfbj__[\\\\\\\\\\\\[Y\\\\_\\\\[_dj\xfbjjjjjjjjjjjjjjjj\xfb \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb",
 
     // 26 = '.'
-    "                                                jjjjj jYUQjûjba_jûjjjjjû ûû"
-    "ûûû",
+    "                                                jjjjj jYUQj\xfbjba_j\xfbjjjjj\xfb \xfb\xfb"
+    "\xfb\xfb\xfb",
 
     // 27 = '!'
-    "jjjjjj jcPQcjûjZSSZjûjZUQZjûjZUSZjûjZUUZjûjc\\_cjûjjjjjjûjjjjjjûja[Wajûjba_"
-    "bjûjjjjjjû ûûûûûû",
+    "jjjjjj jcPQcj\xfbjZSSZj\xfbjZUQZj\xfbjZUSZj\xfbjZUUZj\xfbjc\\\\_cj\xfbjjjjjj\xfbjjjjjj\xfbja[Waj\xfbjba_"
+    "bj\xfbjjjjjj\xfb \xfb\xfb\xfb\xfb\xfb\xfb",
 
-    // 28 = '’'
-    " jjjj  jQQjû jW[jûj__jûûjjjûû  ûûû                                         "
+    // 28 = '\x92'
+    " jjjj  jQQj\xfb jW[j\xfbj__j\xfb\xfbjjj\xfb\xfb  \xfb\xfb\xfb                                         "
     "   ",
 
     // 29 = '-'
-    "                                    jjjjjjjj h\\QPQQWjûjbbY_bbjûjjjjjjjjû û"
-    "ûûûûûûû                                    ",
+    "                                    jjjjjjjj h\\\\QPQQWj\xfbjbbY_bbj\xfbjjjjjjjj\xfb \xfb"
+    "\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                    ",
 
     // 30 = '/'
-    "     jjjj     jaQWjû    j[Q[jû   jaQWjûû   j[Qajû   jaQWjûû   jWQajû   jaQW"
-    "jûû   jWQajû   jaQWjûû   jWQajû    jjjjûû     ûûûû     ",
+    "     jjjj     jaQWj\xfb    j[Q[j\xfb   jaQWj\xfb\xfb   j[Qaj\xfb   jaQWj\xfb\xfb   jWQaj\xfb   jaQW"
+    "j\xfb\xfb   jWQaj\xfb   jaQWj\xfb\xfb   jWQaj\xfb    jjjj\xfb\xfb     \xfb\xfb\xfb\xfb     ",
 
     // 31 = '0'
-    "  iiiiiii    iRP¨¨¨VWi  i[TV__a[W_i i[V[iii[W[iûi[V[iûi[V]iûi[T[iûi_W]iûi[T"
-    "]iûi]V]iûi[T]iûic[]iûi[VYiii___iûi_VRRTW__eiû iec___ceiûû  iiiiiiiûû    ûûû"
-    "ûûûû  ",
+    "  iiiiiii    iRP\xa8\xa8\xa8VWi  i[TV__a[W_i i[V[iii[W[i\xfbi[V[i\xfbi[V]i\xfbi[T[i\xfbi_W]i\xfbi[T"
+    "]i\xfbi]V]i\xfbi[T]i\xfbic[]i\xfbi[VYiii___i\xfbi_VRRTW__ei\xfb iec___cei\xfb\xfb  iiiiiii\xfb\xfb    \xfb\xfb\xfb"
+    "\xfb\xfb\xfb\xfb  ",
 
     // 32 = '1'
-    "   iiii   i¨PPiû i¨[UUiûiR[XUUiûiiiXUUiû ûiXUWiû  iRRUiû  iRRUiû  iURWiû  i"
-    "URRiû  i_\\aiû  iiiiiû   ûûûûû",
+    "   iiii   i\xa8PPi\xfb i\xa8[UUi\xfbiR[XUUi\xfbiiiXUUi\xfb \xfbiXUWi\xfb  iRRUi\xfb  iRRUi\xfb  iURWi\xfb  i"
+    "URRi\xfb  i_\\\\ai\xfb  iiiii\xfb   \xfb\xfb\xfb\xfb\xfb",
 
     // 33 = '2'
-    "iiiiiiiii   iWR¨¨¨QWWi  i_a___\\WXXi iiiiiiiXXWiû iiiiii[[Uiû iRUPPRXXWiûiR"
-    "XX\\_\\_aiûûiU\\\\iiiiiûû iW\\Xiiiiiii iQXXQ¨¨¨¨Qiûi\\_ba[\\_aaiûiiiiiiiiii"
-    "iû ûûûûûûûûûûû",
+    "iiiiiiiii   iWR\xa8\xa8\xa8QWWi  i_a___\\\\WXXi iiiiiiiXXWi\xfb iiiiii[[Ui\xfb iRUPPRXXWi\xfbiR"
+    "XX\\\\_\\\\_ai\xfb\xfbiU\\\\\\\\iiiii\xfb\xfb iW\\\\Xiiiiiii iQXXQ\xa8\xa8\xa8\xa8Qi\xfbi\\\\_ba[\\\\_aai\xfbiiiiiiiiii"
+    "i\xfb \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb",
 
     // 34 = '3'
-    "iiiiiiiii   iWQQ¨¨PRUi  iX\\_\\\\\\\\\\[i iiiiiiic_\\iû ûûûiiifa_iû    i¨R\\"
-    "a_iû    i\\baa_iû    iiifcaiûiiiiiiiccaiûiUWUWWWbbaiûibbabbfffiûûiiiiiiiii"
-    "ûû  ûûûûûûûûû  ",
+    "iiiiiiiii   iWQQ\xa8\xa8PRUi  iX\\\\_\\\\\\\\\\\\\\\\\\\\[i iiiiiiic_\\\\i\xfb \xfb\xfb\xfbiiifa_i\xfb    i\xa8R\\\\"
+    "a_i\xfb    i\\\\baa_i\xfb    iiifcai\xfbiiiiiiiccai\xfbiUWUWWWbbai\xfbibbabbfffi\xfb\xfbiiiiiiiii"
+    "\xfb\xfb  \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb  ",
 
     // 35 = '4'
-    "iiiii iiiii iRRXiûiQRXiûiRX_iûiQW\\iûiW\\XiûiQW_iûiXWUiiiQ[aiûiUUQ¨¨¨¨\\aiû"
-    "i\\_[\\_\\¨\\aiûiiiiiii¨Xaiû ûûûûûi¨X_iû      iQW_iû      i[_fiû      iiiii"
-    "û       ûûûûû",
+    "iiiii iiiii iRRXi\xfbiQRXi\xfbiRX_i\xfbiQW\\\\i\xfbiW\\\\Xi\xfbiQW_i\xfbiXWUiiiQ[ai\xfbiUUQ\xa8\xa8\xa8\xa8\\\\ai\xfb"
+    "i\\\\_[\\\\_\\\\\xa8\\\\ai\xfbiiiiiii\xa8Xai\xfb \xfb\xfb\xfb\xfb\xfbi\xa8X_i\xfb      iQW_i\xfb      i[_fi\xfb      iiiii"
+    "\xfb       \xfb\xfb\xfb\xfb\xfb",
 
     // 36 = '5'
-    "jjjjjjjjjjj jVR¨¨¨¨RTWjûjWVVVY]Y]]jûjYT_jjjjjjjûjYV_jjjjjûûûjYVTR¨RVWj  j]]"
-    "____VWYj jjjjjjjY]ajûjjjjjjj[aajûjV¨¨¨¨V[aajûj]]]]__aejûûjjjjjjjjjûû  ûûûûû"
-    "ûûûû  ",
+    "jjjjjjjjjjj jVR\xa8\xa8\xa8\xa8RTWj\xfbjWVVVY]Y]]j\xfbjYT_jjjjjjj\xfbjYV_jjjjj\xfb\xfb\xfbjYVTR\xa8RVWj  j]]"
+    "____VWYj jjjjjjjY]aj\xfbjjjjjjj[aaj\xfbjV\xa8\xa8\xa8\xa8V[aaj\xfbj]]]]__aej\xfb\xfbjjjjjjjjj\xfb\xfb  \xfb\xfb\xfb\xfb\xfb"
+    "\xfb\xfb\xfb\xfb  ",
 
     // 37 = '6'
-    "  jjjjjjjjj  j]T¨¨RRTWjûj[Wa_][]_ajûjYWajjjjjjjûjVVajjjjjûûûjTWVTTVW]j  jTW"
-    "W]__WW]j jTYWjjjYTVjûjW][jjj[VWjûj[WT¨¨¨TV]jû j[]]_][]jûû  jjjjjjjûû    ûûû"
-    "ûûûû  ",
+    "  jjjjjjjjj  j]T\xa8\xa8RRTWj\xfbj[Wa_][]_aj\xfbjYWajjjjjjj\xfbjVVajjjjj\xfb\xfb\xfbjTWVTTVW]j  jTW"
+    "W]__WW]j jTYWjjjYTVj\xfbjW][jjj[VWj\xfbj[WT\xa8\xa8\xa8TV]j\xfb j[]]_][]j\xfb\xfb  jjjjjjj\xfb\xfb    \xfb\xfb\xfb"
+    "\xfb\xfb\xfb\xfb  ",
 
     // 38 = '7'
-    "jjjjjjjjj   jYVR¨¨¨RWj  jca_a_a[W[j jjjjjjj[W[jû ûûûûûj[V]jû      j_W_jû   "
-    "   j]Vajû      jc[ajû      jccejû      jceejû      jaccjû      jjjjjû      "
-    " ûûûûû",
+    "jjjjjjjjj   jYVR\xa8\xa8\xa8RWj  jca_a_a[W[j jjjjjjj[W[j\xfb \xfb\xfb\xfb\xfb\xfbj[V]j\xfb      j_W_j\xfb   "
+    "   j]Vaj\xfb      jc[aj\xfb      jccej\xfb      jceej\xfb      jaccj\xfb      jjjjj\xfb      "
+    " \xfb\xfb\xfb\xfb\xfb",
 
     // 39 = '8'
-    "  jjjjjjj    jYWVRRVVj  j]][cee[W[j j_[ejjjeV]jûja[_jjj_Vcjû jYYRTTVVjûû jY"
-    "__cc]Tjû j]]cjjj_T_j jWT_jjjYTWjûj_WTP¨PVW_jû j[_a___]jûû  jjjjjjjûû    ûûû"
-    "ûûûû  ",
+    "  jjjjjjj    jYWVRRVVj  j]][cee[W[j j_[ejjjeV]j\xfbja[_jjj_Vcj\xfb jYYRTTVVj\xfb\xfb jY"
+    "__cc]Tj\xfb j]]cjjj_T_j jWT_jjjYTWj\xfbj_WTP\xa8PVW_j\xfb j[_a___]j\xfb\xfb  jjjjjjj\xfb\xfb    \xfb\xfb\xfb"
+    "\xfb\xfb\xfb\xfb  ",
 
     // 40 = '9'
-    "  jjjjjjj    jaWTRRTWj  jggegggacYj jeecjjjacWjûja__jjj]cWjûj][_T¨T]cYjû ja"
-    "cc_]Yc[jû jjjjjj[_]jûjjjjjjjYc_jûjWVTTT¨Wggjûjaaacc__gjûûjjjjjjjjjûû  ûûûûû"
-    "ûûûû  ",
+    "  jjjjjjj    jaWTRRTWj  jggegggacYj jeecjjjacWj\xfbja__jjj]cWj\xfbj][_T\xa8T]cYj\xfb ja"
+    "cc_]Yc[j\xfb jjjjjj[_]j\xfbjjjjjjjYc_j\xfbjWVTTT\xa8Wggj\xfbjaaacc__gj\xfb\xfbjjjjjjjjj\xfb\xfb  \xfb\xfb\xfb\xfb\xfb"
+    "\xfb\xfb\xfb\xfb  ",
 
-    // 41 = '‘'
-    "jjjj  jQQjû jW[jû  j__jû  jjjû   ûûû                                       "
+    // 41 = '\x90\x90\x91'
+    "jjjj  jQQj\xfb jW[j\xfb  j__j\xfb  jjj\xfb   \xfb\xfb\xfb                                       "
     "   "
 };
 
 char *redcharset[] =
 {
     // 0 = '!'
-    " //////  /±±²±/û /³³³±/û /´³²²/û /´³²²/û /´³²²/û /´´²±/û /³´³µ/û /·´´¶/û //"
-    "¸¹//û  ////ûû  ////û   /··/û   /ºº/û   ////û    ûûûû                 ",
-    // 1 = '’'
-    "  ////   /²²/û  /µ·/û /¹¹/ûû ///ûû   ûûû                                   "
+    " //////  /\xb1\xb1\xb2\xb1/\xfb /\xb3\xb3\xb3\xb1/\xfb /\xb4\xb3\xb2\xb2/\xfb /\xb4\xb3\xb2\xb2/\xfb /\xb4\xb3\xb2\xb2/\xfb /\xb4\xb4\xb2\xb1/\xfb /\xb3\xb4\xb3\xb5/\xfb /\xb7\xb4\xb4\xb6/\xfb //"
+    "\xb8\xb9//\xfb  ////\xfb\xfb  ////\xfb   /\xb7\xb7/\xfb   /\xba\xba/\xfb   ////\xfb    \xfb\xfb\xfb\xfb                 ",
+    // 1 = '\x92'
+    "  ////   /\xb2\xb2/\xfb  /\xb5\xb7/\xfb /\xb9\xb9/\xfb\xfb ///\xfb\xfb   \xfb\xfb\xfb                                   "
     "                                                   ",
     // 2 = ','
     "                                                                           "
-    "           ////   /²²/û  /µ·/û /¹¹/ûû ///ûû   ûûû  ",
+    "           ////   /\xb2\xb2/\xfb  /\xb5\xb7/\xfb /\xb9\xb9/\xfb\xfb ///\xfb\xfb   \xfb\xfb\xfb  ",
     // 3 = '-'
     "                                                                   ////////"
-    "   /º´´²²·/   /¼¹¹¶¶»/û  /»ºººº»/û  ////////û   ûûûûûûûû                   "
+    "   /\xba\xb4\xb4\xb2\xb2\xb7/   /\xbc\xb9\xb9\xb6\xb6\xbb/\xfb  /\xbb\xba\xba\xba\xba\xbb/\xfb  ////////\xfb   \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                   "
     "                                                ",
     // 4 = '.'
-    "                                                                   ////  /¸"
-    "¶/û /¶µ/û ////û  ûûûû            ",
+    "                                                                   ////  /\xb8"
+    "\xb6/\xfb /\xb6\xb5/\xfb ////\xfb  \xfb\xfb\xfb\xfb            ",
     // 5 = ':'
-    "                         ////  /¸¶/û /¶µ/û ////û  ûûûû       ////  /¸¶/û /¶"
-    "µ/û ////û  ûûûû                  ",
+    "                         ////  /\xb8\xb6/\xfb /\xb6\xb5/\xfb ////\xfb  \xfb\xfb\xfb\xfb       ////  /\xb8\xb6/\xfb /\xb6"
+    "\xb5/\xfb ////\xfb  \xfb\xfb\xfb\xfb                  ",
     // 6 = '?'
-    " ///////////    /·²²²±±±´¶º/   /º¼¹¹¶¸¸¶¶µº/  ////////´³´¶/û ////////³³µ¶/û"
-    " /·±±±²±³µ³³º/û /¹¶±²¹¶¹¹·º/ûû /º¶³±//////ûû  /º¶´¶/ûûûûûû   //¸¹//û       "
-    "  ////ûû         ////û          /··/û          /ºº/û          ////û        "
-    "   ûûûû                                      ",
+    " ///////////    /\xb7\xb2\xb2\xb2\xb1\xb1\xb1\xb4\xb6\xba/   /\xba\xbc\xb9\xb9\xb6\xb8\xb8\xb6\xb6\xb5\xba/  ////////\xb4\xb3\xb4\xb6/\xfb ////////\xb3\xb3\xb5\xb6/\xfb"
+    " /\xb7\xb1\xb1\xb1\xb2\xb1\xb3\xb5\xb3\xb3\xba/\xfb /\xb9\xb6\xb1\xb2\xb9\xb6\xb9\xb9\xb7\xba/\xfb\xfb /\xba\xb6\xb3\xb1//////\xfb\xfb  /\xba\xb6\xb4\xb6/\xfb\xfb\xfb\xfb\xfb\xfb   //\xb8\xb9//\xfb       "
+    "  ////\xfb\xfb         ////\xfb          /\xb7\xb7/\xfb          /\xba\xba/\xfb          ////\xfb        "
+    "   \xfb\xfb\xfb\xfb                                      ",
     // 7 = 'A'
-    "         /////            /½µ³³³µ½/         /µ¶··¶¶µ¶»/       /¶¹¸µ¹¹¹·µ¶½û"
-    "     /»¸¸¸¹///¹µ·»/     /¹¸··¼/ /¹´·¹/û   /»¹¶¶¸/  /º´·¹/û   /¼¹¶¹/////ºµ·¹"
-    "/û  /º»»·¹//²²³µµ·¹/û  /º»»¹/û/¹¹¹¸µ·¹/û /»ººº¹/û////¸µ¸¹/û /»º»º/ûû ûû/¹¶¸"
-    "¹/û/¼»¹º¹/û    /¹µ¸¹/û/»»»»/ûû    /¼»»»/û//////û     //////û Èûûûûû      ûû"
-    "ûûûû                                      ",
+    "         /////            /\xbd\xb5\xb3\xb3\xb3\xb5\xbd/         /\xb5\xb6\xb7\xb7\xb6\xb6\xb5\xb6\xbb/       /\xb6\xb9\xb8\xb5\xb9\xb9\xb9\xb7\xb5\xb6\xbd\xfb"
+    "     /\xbb\xb8\xb8\xb8\xb9///\xb9\xb5\xb7\xbb/     /\xb9\xb8\xb7\xb7\xbc/ /\xb9\xb4\xb7\xb9/\xfb   /\xbb\xb9\xb6\xb6\xb8/  /\xba\xb4\xb7\xb9/\xfb   /\xbc\xb9\xb6\xb9/////\xba\xb5\xb7\xb9"
+    "/\xfb  /\xba\xbb\xbb\xb7\xb9//\xb2\xb2\xb3\xb5\xb5\xb7\xb9/\xfb  /\xba\xbb\xbb\xb9/\xfb/\xb9\xb9\xb9\xb8\xb5\xb7\xb9/\xfb /\xbb\xba\xba\xba\xb9/\xfb////\xb8\xb5\xb8\xb9/\xfb /\xbb\xba\xbb\xba/\xfb\xfb \xfb\xfb/\xb9\xb6\xb8"
+    "\xb9/\xfb/\xbc\xbb\xb9\xba\xb9/\xfb    /\xb9\xb5\xb8\xb9/\xfb/\xbb\xbb\xbb\xbb/\xfb\xfb    /\xbc\xbb\xbb\xbb/\xfb//////\xfb     //////\xfb \xc8\xfb\xfb\xfb\xfb\xfb      \xfb\xfb"
+    "\xfb\xfb\xfb\xfb                                      ",
     // 8 = 'B'
-    "////////////     /·´³³´´´´µµ·//   /¸·¸ººº¹¹¸·¸·¹/  /»º»¼¼¼¼»»º¸·¹¼/ ///////"
-    "////¹¸¹¸/û///////////¹¸¹¸/û/·µ´µ´´´´µµ·¹¹¼/û/¸µµ¹ºº¹¹¸·¸·¹//û/¸µµ¹¼¼¼»»º¸·¹"
-    "¼/û/¸µµ¹//////¹¸¹¸/û/¸µµº//////¹¸¹¸/û/¸¶¶µ¶´´··¸»¹¹¼/û/¸¶µ¶¸¹¹ºº»»¼»/ûû/¹¸¹"
-    "»º»¼¼¼¼¼//ûû ////////////ûûû   ûûûûûûûûûûûû                                "
+    "////////////     /\xb7\xb4\xb3\xb3\xb4\xb4\xb4\xb4\xb5\xb5\xb7//   /\xb8\xb7\xb8\xba\xba\xba\xb9\xb9\xb8\xb7\xb8\xb7\xb9/  /\xbb\xba\xbb\xbc\xbc\xbc\xbc\xbb\xbb\xba\xb8\xb7\xb9\xbc/ ///////"
+    "////\xb9\xb8\xb9\xb8/\xfb///////////\xb9\xb8\xb9\xb8/\xfb/\xb7\xb5\xb4\xb5\xb4\xb4\xb4\xb4\xb5\xb5\xb7\xb9\xb9\xbc/\xfb/\xb8\xb5\xb5\xb9\xba\xba\xb9\xb9\xb8\xb7\xb8\xb7\xb9//\xfb/\xb8\xb5\xb5\xb9\xbc\xbc\xbc\xbb\xbb\xba\xb8\xb7\xb9"
+    "\xbc/\xfb/\xb8\xb5\xb5\xb9//////\xb9\xb8\xb9\xb8/\xfb/\xb8\xb5\xb5\xba//////\xb9\xb8\xb9\xb8/\xfb/\xb8\xb6\xb6\xb5\xb6\xb4\xb4\xb7\xb7\xb8\xbb\xb9\xb9\xbc/\xfb/\xb8\xb6\xb5\xb6\xb8\xb9\xb9\xba\xba\xbb\xbb\xbc\xbb/\xfb\xfb/\xb9\xb8\xb9"
+    "\xbb\xba\xbb\xbc\xbc\xbc\xbc\xbc//\xfb\xfb ////////////\xfb\xfb\xfb   \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                "
     "      ",
     // 9 = 'C'
-    "    /////////       //º¹·¶¶µµ·¹//    /½º»¼»º¹ºº¹½ºº/   /½-¼»º¼¼¼¼¹¼¼»¹/ /½½"
-    "»½¼¼////º¼½¼º/û/»»½½¼/ûûûû//////û/½¼¼¼/ûû    ûûûûûû/½.½¼/û           /½,¼¼/"
-    "û           /»º¼»½/    ////// /½º»º¼¸////¸¸¹¹¹/û /º»º¼½¸µ¶·¹·ºº¼/û /½¹»¼¼ºº"
-    "¹·¸·¹¼/ûû  //¼»¼¼¼¼¼»¼//ûû    û/////////ûûû       ûûûûûûûûû                "
+    "    /////////       //\xba\xb9\xb7\xb6\xb6\xb5\xb5\xb7\xb9//    /\xbd\xba\xbb\xbc\xbb\xba\xb9\xba\xba\xb9\xbd\xba\xba/   /\xbd-\xbc\xbb\xba\xbc\xbc\xbc\xbc\xb9\xbc\xbc\xbb\xb9/ /\xbd\xbd"
+    "\xbb\xbd\xbc\xbc////\xba\xbc\xbd\xbc\xba/\xfb/\xbb\xbb\xbd\xbd\xbc/\xfb\xfb\xfb\xfb//////\xfb/\xbd\xbc\xbc\xbc/\xfb\xfb    \xfb\xfb\xfb\xfb\xfb\xfb/\xbd.\xbd\xbc/\xfb           /\xbd,\xbc\xbc/"
+    "\xfb           /\xbb\xba\xbc\xbb\xbd/    ////// /\xbd\xba\xbb\xba\xbc\xb8////\xb8\xb8\xb9\xb9\xb9/\xfb /\xba\xbb\xba\xbc\xbd\xb8\xb5\xb6\xb7\xb9\xb7\xba\xba\xbc/\xfb /\xbd\xb9\xbb\xbc\xbc\xba\xba"
+    "\xb9\xb7\xb8\xb7\xb9\xbc/\xfb\xfb  //\xbc\xbb\xbc\xbc\xbc\xbc\xbc\xbb\xbc//\xfb\xfb    \xfb/////////\xfb\xfb\xfb       \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                "
     "                        ",
     // 10 = 'D'
-    "////////////     /¹·µµµµ³³µ¸»//   /ºº¹ºº¹¹º¹¹¸º½/  /»»»»»¼¼¼º¹¹¸¸/û ///////"
-    "//¼º¸¹¹»/ //////ûûû/¼ºº¹¸/û/¸²²µ/û   /¹»»¹/û/¹µµ¸/û   /¸»»¼/û/¹µ¶¸/û   /¸»º"
-    "»/û/¹µµ¸/û  /»¹»º»/û/¸µµ¸////»¸º»º½/û/·µµµµ²²²·º¼»»/ûû/·µ³´´´´´·º¼¼½/û /º»»"
-    "»»»»»»»»//ûû ////////////ûûû   Èûûûûûûûûûûû                                "
+    "////////////     /\xb9\xb7\xb5\xb5\xb5\xb5\xb3\xb3\xb5\xb8\xbb//   /\xba\xba\xb9\xba\xba\xb9\xb9\xba\xb9\xb9\xb8\xba\xbd/  /\xbb\xbb\xbb\xbb\xbb\xbc\xbc\xbc\xba\xb9\xb9\xb8\xb8/\xfb ///////"
+    "//\xbc\xba\xb8\xb9\xb9\xbb/ //////\xfb\xfb\xfb/\xbc\xba\xba\xb9\xb8/\xfb/\xb8\xb2\xb2\xb5/\xfb   /\xb9\xbb\xbb\xb9/\xfb/\xb9\xb5\xb5\xb8/\xfb   /\xb8\xbb\xbb\xbc/\xfb/\xb9\xb5\xb6\xb8/\xfb   /\xb8\xbb\xba"
+    "\xbb/\xfb/\xb9\xb5\xb5\xb8/\xfb  /\xbb\xb9\xbb\xba\xbb/\xfb/\xb8\xb5\xb5\xb8////\xbb\xb8\xba\xbb\xba\xbd/\xfb/\xb7\xb5\xb5\xb5\xb5\xb2\xb2\xb2\xb7\xba\xbc\xbb\xbb/\xfb\xfb/\xb7\xb5\xb3\xb4\xb4\xb4\xb4\xb4\xb7\xba\xbc\xbc\xbd/\xfb /\xba\xbb\xbb"
+    "\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb//\xfb\xfb ////////////\xfb\xfb\xfb   \xc8\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                "
     "      ",
     // 11 = 'E'
-    "    ////////////   //»µ´²²²³³³µ¹/û /¼¸·¶¶µ¶¶··¹ºº/û /¸µµ»»»»»»»»»»/û/»¸´µ//"
-    "/////////û/¹·´µ/////ûûûûûûû/¹µ³µ´²²´/û      /¹µ³µ¶¶µµ/û      /¹µ²¶¹»»»/û   "
-    "   /¹¶²µ/////û      /¼µ²µ///////////  /¸³µ´´³±±±²³´¶/û /¼¸µ¶¶¶µ¶¶¶¶¶¸/û  //"
-    "»»»»»»»»»»»/û   û////////////û     ûûûûûûûûûûûû                            "
+    "    ////////////   //\xbb\xb5\xb4\xb2\xb2\xb2\xb3\xb3\xb3\xb5\xb9/\xfb /\xbc\xb8\xb7\xb6\xb6\xb5\xb6\xb6\xb7\xb7\xb9\xba\xba/\xfb /\xb8\xb5\xb5\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb/\xfb/\xbb\xb8\xb4\xb5//"
+    "/////////\xfb/\xb9\xb7\xb4\xb5/////\xfb\xfb\xfb\xfb\xfb\xfb\xfb/\xb9\xb5\xb3\xb5\xb4\xb2\xb2\xb4/\xfb      /\xb9\xb5\xb3\xb5\xb6\xb6\xb5\xb5/\xfb      /\xb9\xb5\xb2\xb6\xb9\xbb\xbb\xbb/\xfb   "
+    "   /\xb9\xb6\xb2\xb5/////\xfb      /\xbc\xb5\xb2\xb5///////////  /\xb8\xb3\xb5\xb4\xb4\xb3\xb1\xb1\xb1\xb2\xb3\xb4\xb6/\xfb /\xbc\xb8\xb5\xb6\xb6\xb6\xb5\xb6\xb6\xb6\xb6\xb6\xb8/\xfb  //"
+    "\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb/\xfb   \xfb////////////\xfb     \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 12 = 'F'
-    "    ////////////   //»¸·µµµµµµ¸º/û /»¹····¸¸¹¹¸¸¹/û /¶¹¶»»»»»»»»»»/û/»¶¹¸//"
-    "/////////û/¸¶¹¸/////ûûûûûûû/¹¶¹¸¶´²´/û      /¹¶¹·¸·¸·/û      /¸¶¹·»»»»/û   "
-    "   /¹¶¹¹/////û      /¹¶¹º/ûûûûû      /º¶¹¼/û          /º¶¹¼/û          /»»»"
-    "»/û          //////û           ûûûûûû                                      "
+    "    ////////////   //\xbb\xb8\xb7\xb5\xb5\xb5\xb5\xb5\xb5\xb8\xba/\xfb /\xbb\xb9\xb7\xb7\xb7\xb7\xb8\xb8\xb9\xb9\xb8\xb8\xb9/\xfb /\xb6\xb9\xb6\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb\xbb/\xfb/\xbb\xb6\xb9\xb8//"
+    "/////////\xfb/\xb8\xb6\xb9\xb8/////\xfb\xfb\xfb\xfb\xfb\xfb\xfb/\xb9\xb6\xb9\xb8\xb6\xb4\xb2\xb4/\xfb      /\xb9\xb6\xb9\xb7\xb8\xb7\xb8\xb7/\xfb      /\xb8\xb6\xb9\xb7\xbb\xbb\xbb\xbb/\xfb   "
+    "   /\xb9\xb6\xb9\xb9/////\xfb      /\xb9\xb6\xb9\xba/\xfb\xfb\xfb\xfb\xfb      /\xba\xb6\xb9\xbc/\xfb          /\xba\xb6\xb9\xbc/\xfb          /\xbb\xbb\xbb"
+    "\xbb/\xfb          //////\xfb           \xfb\xfb\xfb\xfb\xfb\xfb                                      "
     "      ",
     // 13 = 'G'
-    "    ////////       //·µ´´±±²µ//    /¼¶¶µ¶¶··¹ºº¸/   /µ¶µ´¹»¼¼¼»¹¸µ/ /ºµ¶´º½"
-    "////.¼¸µ/û/¸µ¶µ¼/ûûûû/////û/¸µ¶µ/ûû////////û/¸µ¶¶/û /·µ···¹/û/·¶¶¶/û /¹·¹¸¸"
-    "»/û/·µ¶¶¸/ ///¹¸¹»/û/ºµ·¶µ¸////¹¹¸»/û /µ¶·¶´´´²³·¹¹»/û /¼¶¶¶µ¸¹º¼»º¹º/û  //"
-    "¸¸¹ºº»¼»ºº¼/û   û////////////û     ûûûûûûûûûûûû                            "
+    "    ////////       //\xb7\xb5\xb4\xb4\xb1\xb1\xb2\xb5//    /\xbc\xb6\xb6\xb5\xb6\xb6\xb7\xb7\xb9\xba\xba\xb8/   /\xb5\xb6\xb5\xb4\xb9\xbb\xbc\xbc\xbc\xbb\xb9\xb8\xb5/ /\xba\xb5\xb6\xb4\xba\xbd"
+    "////.\xbc\xb8\xb5/\xfb/\xb8\xb5\xb6\xb5\xbc/\xfb\xfb\xfb\xfb/////\xfb/\xb8\xb5\xb6\xb5/\xfb\xfb////////\xfb/\xb8\xb5\xb6\xb6/\xfb /\xb7\xb5\xb7\xb7\xb7\xb9/\xfb/\xb7\xb6\xb6\xb6/\xfb /\xb9\xb7\xb9\xb8\xb8"
+    "\xbb/\xfb/\xb7\xb5\xb6\xb6\xb8/ ///\xb9\xb8\xb9\xbb/\xfb/\xba\xb5\xb7\xb6\xb5\xb8////\xb9\xb9\xb8\xbb/\xfb /\xb5\xb6\xb7\xb6\xb4\xb4\xb4\xb2\xb3\xb7\xb9\xb9\xbb/\xfb /\xbc\xb6\xb6\xb6\xb5\xb8\xb9\xba\xbc\xbb\xba\xb9\xba/\xfb  //"
+    "\xb8\xb8\xb9\xba\xba\xbb\xbc\xbb\xba\xba\xbc/\xfb   \xfb////////////\xfb     \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 14 = 'H'
-    "//////    ////// /¹²±¶/û   /·³³¸/û/º¶¶¹/û   /º·¸¹/û/º··º/û   /º¸¸¹/û/¹··º/û"
-    "   /º¹¹º/û/¹¸¸º//////»º¹º/û/¹¶¶¹¶´²²··»»»º/û/¹µµ·¸¸¸¹¹ºº»»¼/û/¹µ¶·ººº»¼¼»»º"
-    "¼/û/¹µµ¹//////¼»º¼/û/¸µµ¹/ûûûû/¼»º»/û/·µµ¸/û   /¼»º¼/û/·µ³·/û   /¼»¹»/û/º¸¸"
-    "º/û   /,½»¼/û//////û   //////û ûûûûûû    ûûûûûû                            "
+    "//////    ////// /\xb9\xb2\xb1\xb6/\xfb   /\xb7\xb3\xb3\xb8/\xfb/\xba\xb6\xb6\xb9/\xfb   /\xba\xb7\xb8\xb9/\xfb/\xba\xb7\xb7\xba/\xfb   /\xba\xb8\xb8\xb9/\xfb/\xb9\xb7\xb7\xba/\xfb"
+    "   /\xba\xb9\xb9\xba/\xfb/\xb9\xb8\xb8\xba//////\xbb\xba\xb9\xba/\xfb/\xb9\xb6\xb6\xb9\xb6\xb4\xb2\xb2\xb7\xb7\xbb\xbb\xbb\xba/\xfb/\xb9\xb5\xb5\xb7\xb8\xb8\xb8\xb9\xb9\xba\xba\xbb\xbb\xbc/\xfb/\xb9\xb5\xb6\xb7\xba\xba\xba\xbb\xbc\xbc\xbb\xbb\xba"
+    "\xbc/\xfb/\xb9\xb5\xb5\xb9//////\xbc\xbb\xba\xbc/\xfb/\xb8\xb5\xb5\xb9/\xfb\xfb\xfb\xfb/\xbc\xbb\xba\xbb/\xfb/\xb7\xb5\xb5\xb8/\xfb   /\xbc\xbb\xba\xbc/\xfb/\xb7\xb5\xb3\xb7/\xfb   /\xbc\xbb\xb9\xbb/\xfb/\xba\xb8\xb8"
+    "\xba/\xfb   /,\xbd\xbb\xbc/\xfb//////\xfb   //////\xfb \xfb\xfb\xfb\xfb\xfb\xfb    \xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 15 = 'I'
-    "////// /¶´³·/û/¸µ¶¹/û/·´µ¹/û/¶´µ¹/û/·´´¹/û/·µ´¹/û/¸µµ¹/û/¸µµ¹/û/¸µµ¹/û/¸µµº"
-    "/û/¸¶¶º/û/¸¶µº/û/¹¸¹»/û//////û ûûûûûû              ",
+    "////// /\xb6\xb4\xb3\xb7/\xfb/\xb8\xb5\xb6\xb9/\xfb/\xb7\xb4\xb5\xb9/\xfb/\xb6\xb4\xb5\xb9/\xfb/\xb7\xb4\xb4\xb9/\xfb/\xb7\xb5\xb4\xb9/\xfb/\xb8\xb5\xb5\xb9/\xfb/\xb8\xb5\xb5\xb9/\xfb/\xb8\xb5\xb5\xb9/\xfb/\xb8\xb5\xb5\xba"
+    "/\xfb/\xb8\xb6\xb6\xba/\xfb/\xb8\xb6\xb5\xba/\xfb/\xb9\xb8\xb9\xbb/\xfb//////\xfb \xfb\xfb\xfb\xfb\xfb\xfb              ",
     // 16 = 'J'
-    "          //////           /¶²³¹/û          /¹¶¶º/û          /º··º/û       "
-    "   /º··¹/û          /º¸¸¹/û          /¹¶¶¹/û          /¹µµ¹/û          /¹¶µ"
-    "¹/û          /¹µµ¹/û//////////¹¶µµº/û/º¹ºº¹¸·¶¶µµµ¸/ûû/º¸·¸¹ºº¼º´·³¹/û /¼»½"
-    "½¼º¼,¼º¹//ûû ////////////ûûû   ûûûûûûûûûûûû                                "
+    "          //////           /\xb6\xb2\xb3\xb9/\xfb          /\xb9\xb6\xb6\xba/\xfb          /\xba\xb7\xb7\xba/\xfb       "
+    "   /\xba\xb7\xb7\xb9/\xfb          /\xba\xb8\xb8\xb9/\xfb          /\xb9\xb6\xb6\xb9/\xfb          /\xb9\xb5\xb5\xb9/\xfb          /\xb9\xb6\xb5"
+    "\xb9/\xfb          /\xb9\xb5\xb5\xb9/\xfb//////////\xb9\xb6\xb5\xb5\xba/\xfb/\xba\xb9\xba\xba\xb9\xb8\xb7\xb6\xb6\xb5\xb5\xb5\xb8/\xfb\xfb/\xba\xb8\xb7\xb8\xb9\xba\xba\xbc\xba\xb4\xb7\xb3\xb9/\xfb /\xbc\xbb\xbd"
+    "\xbd\xbc\xba\xbc,\xbc\xba\xb9//\xfb\xfb ////////////\xfb\xfb\xfb   \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                "
     "      ",
     // 17 = 'K'
-    "//////      ////// /¸µµ¹/û    /´µµ´¸/û/¹»¼½/û   /¶º¹½¼/ûû/¹º»½/û  /´¸¹¹½/ûû"
-    " /ººº½/û /¶µµ¸»/ûû  /¹º»»/û/¶¹¶·º/ûû   /¹»½¼//·»º¹»/ûû    /¹»½./»¼»»º/ûû   "
-    "  /¹»½,//»»»»¶/      /¹¹»º/û/½¹»º´/     /¹¹ºº/û /»»º·¶/    /¸·¹º/û  /¼¹·¹´/"
-    "   /¸¶¹¼/û   /»·¸·¶/  /¹¹»-/û    /¼¹º»¹/ /½////û     //////û ûûûûûû      ûû"
-    "ûûûû                                      ",
+    "//////      ////// /\xb8\xb5\xb5\xb9/\xfb    /\xb4\xb5\xb5\xb4\xb8/\xfb/\xb9\xbb\xbc\xbd/\xfb   /\xb6\xba\xb9\xbd\xbc/\xfb\xfb/\xb9\xba\xbb\xbd/\xfb  /\xb4\xb8\xb9\xb9\xbd/\xfb\xfb"
+    " /\xba\xba\xba\xbd/\xfb /\xb6\xb5\xb5\xb8\xbb/\xfb\xfb  /\xb9\xba\xbb\xbb/\xfb/\xb6\xb9\xb6\xb7\xba/\xfb\xfb   /\xb9\xbb\xbd\xbc//\xb7\xbb\xba\xb9\xbb/\xfb\xfb    /\xb9\xbb\xbd./\xbb\xbc\xbb\xbb\xba/\xfb\xfb   "
+    "  /\xb9\xbb\xbd,//\xbb\xbb\xbb\xbb\xb6/      /\xb9\xb9\xbb\xba/\xfb/\xbd\xb9\xbb\xba\xb4/     /\xb9\xb9\xba\xba/\xfb /\xbb\xbb\xba\xb7\xb6/    /\xb8\xb7\xb9\xba/\xfb  /\xbc\xb9\xb7\xb9\xb4/"
+    "   /\xb8\xb6\xb9\xbc/\xfb   /\xbb\xb7\xb8\xb7\xb6/  /\xb9\xb9\xbb-/\xfb    /\xbc\xb9\xba\xbb\xb9/ /\xbd////\xfb     //////\xfb \xfb\xfb\xfb\xfb\xfb\xfb      \xfb\xfb"
+    "\xfb\xfb\xfb\xfb                                      ",
     // 18 = 'L'
-    "//////           /¹³²¶/û          /º¶¶¹/û          /º··º/û          /¹··º/û"
-    "          /¹¸¸º/û          /¹¶¶¹/û          /¹µµ¹/û          /¹µ¶¹/û       "
-    "   /¹µµ¹/û          /ºµµ¶¹//////////  /µµµµ···¸¹ºº¹º/û /¹³´´´´´·º¼»¹º/û  //"
-    "¹¸¸¸¹º¼,½»¼/û   û////////////û     ûûûûûûûûûûûû                            "
+    "//////           /\xb9\xb3\xb2\xb6/\xfb          /\xba\xb6\xb6\xb9/\xfb          /\xba\xb7\xb7\xba/\xfb          /\xb9\xb7\xb7\xba/\xfb"
+    "          /\xb9\xb8\xb8\xba/\xfb          /\xb9\xb6\xb6\xb9/\xfb          /\xb9\xb5\xb5\xb9/\xfb          /\xb9\xb5\xb6\xb9/\xfb       "
+    "   /\xb9\xb5\xb5\xb9/\xfb          /\xba\xb5\xb5\xb6\xb9//////////  /\xb5\xb5\xb5\xb5\xb7\xb7\xb7\xb8\xb9\xba\xba\xb9\xba/\xfb /\xb9\xb3\xb4\xb4\xb4\xb4\xb4\xb7\xba\xbc\xbb\xb9\xba/\xfb  //"
+    "\xb9\xb8\xb8\xb8\xb9\xba\xbc,\xbd\xbb\xbc/\xfb   \xfb////////////\xfb     \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 19 = 'M'
-    "  //        //    /µ¶//    //¶µ/  /»¸·±´/  /´µ¹²¼/ /º¸µ±¶±//´¸¸¸²º/û/º¸¶±¶´"
-    "±±··¸¹²º/û/¹·µ±¶µ´³·¸¸º´º/û/¹µµ±¶µµ³·¸¹»´º/û/¹µµ±/¹µµº/ººµº/û/¹µ´±//¹¹//»»µ"
-    "º/û/¹¶´±/û//û/º»¸»/û/¹µ´³/û ûû/º½¸º/û/¹µ´³/û   /º½¸º/û/¹µµ³/û   /º-¸»/û/»¸¹"
-    "¸/û   /».¸¼/û//////û   //////û Èûûûûû    ûûûûûû                            "
+    "  //        //    /\xb5\xb6//    //\xb6\xb5/  /\xbb\xb8\xb7\xb1\xb4/  /\xb4\xb5\xb9\xb2\xbc/ /\xba\xb8\xb5\xb1\xb6\xb1//\xb4\xb8\xb8\xb8\xb2\xba/\xfb/\xba\xb8\xb6\xb1\xb6\xb4"
+    "\xb1\xb1\xb7\xb7\xb8\xb9\xb2\xba/\xfb/\xb9\xb7\xb5\xb1\xb6\xb5\xb4\xb3\xb7\xb8\xb8\xba\xb4\xba/\xfb/\xb9\xb5\xb5\xb1\xb6\xb5\xb5\xb3\xb7\xb8\xb9\xbb\xb4\xba/\xfb/\xb9\xb5\xb5\xb1/\xb9\xb5\xb5\xba/\xba\xba\xb5\xba/\xfb/\xb9\xb5\xb4\xb1//\xb9\xb9//\xbb\xbb\xb5"
+    "\xba/\xfb/\xb9\xb6\xb4\xb1/\xfb//\xfb/\xba\xbb\xb8\xbb/\xfb/\xb9\xb5\xb4\xb3/\xfb \xfb\xfb/\xba\xbd\xb8\xba/\xfb/\xb9\xb5\xb4\xb3/\xfb   /\xba\xbd\xb8\xba/\xfb/\xb9\xb5\xb5\xb3/\xfb   /\xba-\xb8\xbb/\xfb/\xbb\xb8\xb9"
+    "\xb8/\xfb   /\xbb.\xb8\xbc/\xfb//////\xfb   //////\xfb \xc8\xfb\xfb\xfb\xfb\xfb    \xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 20 = 'N'
-    "  //      //////  /µ·/     /¸´´¹/û/ºµ¶´/    /º¸¸»/û/ºµ¶¶´/   /¹··»/û/ºµµ¸·´"
-    "/  /¹³·»/û/¹·¶¸¸¸´/ /¹³¶º/û/º¹¸¸¹··´//¹´¶¹/û/º¶¶·¸·¸·´/¹µ¸º/û/¹··¹/º¸¹·¸·µ·"
-    "º/û/º¸¹º//»¹¶¶¸··¹/û/º¹º»/û/¼·¶¸··¹/û/»ºº¼/û /º¸¶µ·¹/û/»¹»¼/û  /º¸¶´»/û/¼¼¼"
-    "½/û   /¼¹¹/ûû/-////û    ///ûû  ûûûûûû     ûûû                              "
+    "  //      //////  /\xb5\xb7/     /\xb8\xb4\xb4\xb9/\xfb/\xba\xb5\xb6\xb4/    /\xba\xb8\xb8\xbb/\xfb/\xba\xb5\xb6\xb6\xb4/   /\xb9\xb7\xb7\xbb/\xfb/\xba\xb5\xb5\xb8\xb7\xb4"
+    "/  /\xb9\xb3\xb7\xbb/\xfb/\xb9\xb7\xb6\xb8\xb8\xb8\xb4/ /\xb9\xb3\xb6\xba/\xfb/\xba\xb9\xb8\xb8\xb9\xb7\xb7\xb4//\xb9\xb4\xb6\xb9/\xfb/\xba\xb6\xb6\xb7\xb8\xb7\xb8\xb7\xb4/\xb9\xb5\xb8\xba/\xfb/\xb9\xb7\xb7\xb9/\xba\xb8\xb9\xb7\xb8\xb7\xb5\xb7"
+    "\xba/\xfb/\xba\xb8\xb9\xba//\xbb\xb9\xb6\xb6\xb8\xb7\xb7\xb9/\xfb/\xba\xb9\xba\xbb/\xfb/\xbc\xb7\xb6\xb8\xb7\xb7\xb9/\xfb/\xbb\xba\xba\xbc/\xfb /\xba\xb8\xb6\xb5\xb7\xb9/\xfb/\xbb\xb9\xbb\xbc/\xfb  /\xba\xb8\xb6\xb4\xbb/\xfb/\xbc\xbc\xbc"
+    "\xbd/\xfb   /\xbc\xb9\xb9/\xfb\xfb/-////\xfb    ///\xfb\xfb  \xfb\xfb\xfb\xfb\xfb\xfb     \xfb\xfb\xfb                              "
     "      ",
     // 21 = 'O'
-    "    //////////       //·µ´´±±²µ··//    /¼¶¶µ¶¶··¹ºº¸¶¼/   /µ¶µ´¹»¼¼¼»¹¸µ¶/û"
-    " /ºµ¶´º//////¼¸µ·º/ /¸µ¶µ/ûûûûûû/·¶µ¹/û/¸µ¶µ/û     /µ¶¶º/û/¸µ¶¶/û     /·¶¶¸"
-    "/û/·¶¶¶/û     /¸¸µ¹/û/·µ¶¶/û     /¹¸·¹/û/ºµ·¶µ//////¹¸¸·º/û /µ¶·¶´´´²³·¹¹¸¸"
-    "/ûû /¼¶¶¶µ¸¹º¼»º¹¹¼/û   //¸¸¹ºº»¼»ºº//ûû    û//////////ûûû       ûûûûûûûûûû"
+    "    //////////       //\xb7\xb5\xb4\xb4\xb1\xb1\xb2\xb5\xb7\xb7//    /\xbc\xb6\xb6\xb5\xb6\xb6\xb7\xb7\xb9\xba\xba\xb8\xb6\xbc/   /\xb5\xb6\xb5\xb4\xb9\xbb\xbc\xbc\xbc\xbb\xb9\xb8\xb5\xb6/\xfb"
+    " /\xba\xb5\xb6\xb4\xba//////\xbc\xb8\xb5\xb7\xba/ /\xb8\xb5\xb6\xb5/\xfb\xfb\xfb\xfb\xfb\xfb/\xb7\xb6\xb5\xb9/\xfb/\xb8\xb5\xb6\xb5/\xfb     /\xb5\xb6\xb6\xba/\xfb/\xb8\xb5\xb6\xb6/\xfb     /\xb7\xb6\xb6\xb8"
+    "/\xfb/\xb7\xb6\xb6\xb6/\xfb     /\xb8\xb8\xb5\xb9/\xfb/\xb7\xb5\xb6\xb6/\xfb     /\xb9\xb8\xb7\xb9/\xfb/\xba\xb5\xb7\xb6\xb5//////\xb9\xb8\xb8\xb7\xba/\xfb /\xb5\xb6\xb7\xb6\xb4\xb4\xb4\xb2\xb3\xb7\xb9\xb9\xb8\xb8"
+    "/\xfb\xfb /\xbc\xb6\xb6\xb6\xb5\xb8\xb9\xba\xbc\xbb\xba\xb9\xb9\xbc/\xfb   //\xb8\xb8\xb9\xba\xba\xbb\xbc\xbb\xba\xba//\xfb\xfb    \xfb//////////\xfb\xfb\xfb       \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb"
     "                                          ",
     // 22 = 'P'
-    "////////////     /·´³³´´´´µµ·//   /¸·¸ººº¹¹¸·¸·¹/  /»º»¼¼¼¼»»º¸·¹¼/ ///////"
-    "////¹¸¹¸/û///////////¹¸¹¸/û/·³´´¶´´··¸»¹¹¼/û/¸·¸¸¸¹¹ºº»»¼»/ûû/¹··ºº»¼¼¼¼¼//"
-    "ûû /¸¶·¹///////ûûû  /¸¶¶¹/ûûûûûûû    /¸µµ¸/û          /·´´·/û          /º¸¸"
-    "º/û          //////û           ûûûûûû                                      "
+    "////////////     /\xb7\xb4\xb3\xb3\xb4\xb4\xb4\xb4\xb5\xb5\xb7//   /\xb8\xb7\xb8\xba\xba\xba\xb9\xb9\xb8\xb7\xb8\xb7\xb9/  /\xbb\xba\xbb\xbc\xbc\xbc\xbc\xbb\xbb\xba\xb8\xb7\xb9\xbc/ ///////"
+    "////\xb9\xb8\xb9\xb8/\xfb///////////\xb9\xb8\xb9\xb8/\xfb/\xb7\xb3\xb4\xb4\xb6\xb4\xb4\xb7\xb7\xb8\xbb\xb9\xb9\xbc/\xfb/\xb8\xb7\xb8\xb8\xb8\xb9\xb9\xba\xba\xbb\xbb\xbc\xbb/\xfb\xfb/\xb9\xb7\xb7\xba\xba\xbb\xbc\xbc\xbc\xbc\xbc//"
+    "\xfb\xfb /\xb8\xb6\xb7\xb9///////\xfb\xfb\xfb  /\xb8\xb6\xb6\xb9/\xfb\xfb\xfb\xfb\xfb\xfb\xfb    /\xb8\xb5\xb5\xb8/\xfb          /\xb7\xb4\xb4\xb7/\xfb          /\xba\xb8\xb8"
+    "\xba/\xfb          //////\xfb           \xfb\xfb\xfb\xfb\xfb\xfb                                      "
     "      ",
     // 23 = 'Q'
-    "    //////////       //·µ´´±±²µ··//    /¼¶¶µ¶¶··¹ºº¸¶¼/   /µ¶µ´¹»¼¼¼»¹¸µ¶//"
-    " /ºµ¶´º//////¼¸µ·º/û/¸µ¶µ/ûûûûûû/·¶µ¹/û/¸µ¶µ/û     /µ¶¶º/û/¸µ¶¶/û     /·¶¶¸"
-    "/û/·¶¶¶/û     /¸¸µ¹/û/·µ¶¶/û     /¹¸·¹/û/ºµ·¶µ//////¹¸¸·º/û /µ¶·¶´´´²³·¹¹¸¸"
-    "/ûû /¼¶¶¶µ¸¹º¼»º¹¹¼/û   //¸¸¹ºº»¼»ºº//ûû    û///////»»¹/ûû       ûûûûû/¼¼»/"
-    "û             /////û              ûûûûû   ",
+    "    //////////       //\xb7\xb5\xb4\xb4\xb1\xb1\xb2\xb5\xb7\xb7//    /\xbc\xb6\xb6\xb5\xb6\xb6\xb7\xb7\xb9\xba\xba\xb8\xb6\xbc/   /\xb5\xb6\xb5\xb4\xb9\xbb\xbc\xbc\xbc\xbb\xb9\xb8\xb5\xb6//"
+    " /\xba\xb5\xb6\xb4\xba//////\xbc\xb8\xb5\xb7\xba/\xfb/\xb8\xb5\xb6\xb5/\xfb\xfb\xfb\xfb\xfb\xfb/\xb7\xb6\xb5\xb9/\xfb/\xb8\xb5\xb6\xb5/\xfb     /\xb5\xb6\xb6\xba/\xfb/\xb8\xb5\xb6\xb6/\xfb     /\xb7\xb6\xb6\xb8"
+    "/\xfb/\xb7\xb6\xb6\xb6/\xfb     /\xb8\xb8\xb5\xb9/\xfb/\xb7\xb5\xb6\xb6/\xfb     /\xb9\xb8\xb7\xb9/\xfb/\xba\xb5\xb7\xb6\xb5//////\xb9\xb8\xb8\xb7\xba/\xfb /\xb5\xb6\xb7\xb6\xb4\xb4\xb4\xb2\xb3\xb7\xb9\xb9\xb8\xb8"
+    "/\xfb\xfb /\xbc\xb6\xb6\xb6\xb5\xb8\xb9\xba\xbc\xbb\xba\xb9\xb9\xbc/\xfb   //\xb8\xb8\xb9\xba\xba\xbb\xbc\xbb\xba\xba//\xfb\xfb    \xfb///////\xbb\xbb\xb9/\xfb\xfb       \xfb\xfb\xfb\xfb\xfb/\xbc\xbc\xbb/"
+    "\xfb             /////\xfb              \xfb\xfb\xfb\xfb\xfb   ",
     // 24 = 'R'
-    "////////////     /¶³´´±±±²´µ¶//   /¸·¸·µ¶¶··¸¹·»/  /ºººº¹¸¹¹¹º¸¸·/û ///////"
-    "////º··»/ ///////////ºµ¸¸/û/·´´´´±²³´´µ´¶¸/û/º¸¸··¸·µµ¶µ²¶»/û/¹¸¸¸»»¹¹µ¶µ²»"
-    "//û/¹··¹///-»¸µ²³¹/û/¹¶·¹/ûûû/¹´²³¹/û/¸µ¶¸/û  /¸´²´¸/û/¸¶·¸/û  /¸³³³·/û/º¹¹"
-    "º/û  /º¸·¸¹/û//////û  ///////û ûûûûûû   ûûûûûûû                            "
+    "////////////     /\xb6\xb3\xb4\xb4\xb1\xb1\xb1\xb2\xb4\xb5\xb6//   /\xb8\xb7\xb8\xb7\xb5\xb6\xb6\xb7\xb7\xb8\xb9\xb7\xbb/  /\xba\xba\xba\xba\xb9\xb8\xb9\xb9\xb9\xba\xb8\xb8\xb7/\xfb ///////"
+    "////\xba\xb7\xb7\xbb/ ///////////\xba\xb5\xb8\xb8/\xfb/\xb7\xb4\xb4\xb4\xb4\xb1\xb2\xb3\xb4\xb4\xb5\xb4\xb6\xb8/\xfb/\xba\xb8\xb8\xb7\xb7\xb8\xb7\xb5\xb5\xb6\xb5\xb2\xb6\xbb/\xfb/\xb9\xb8\xb8\xb8\xbb\xbb\xb9\xb9\xb5\xb6\xb5\xb2\xbb"
+    "//\xfb/\xb9\xb7\xb7\xb9///-\xbb\xb8\xb5\xb2\xb3\xb9/\xfb/\xb9\xb6\xb7\xb9/\xfb\xfb\xfb/\xb9\xb4\xb2\xb3\xb9/\xfb/\xb8\xb5\xb6\xb8/\xfb  /\xb8\xb4\xb2\xb4\xb8/\xfb/\xb8\xb6\xb7\xb8/\xfb  /\xb8\xb3\xb3\xb3\xb7/\xfb/\xba\xb9\xb9"
+    "\xba/\xfb  /\xba\xb8\xb7\xb8\xb9/\xfb//////\xfb  ///////\xfb \xfb\xfb\xfb\xfb\xfb\xfb   \xfb\xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 25 = 'S'
-    "   ////////////    /¼·¶´´²³³³·¹/û  /º¹º¸¸¶·º¹·¹º/û /ºµ¸¸»ººº»»»¹»/û /¸µ·º//"
-    "////////û /¸´¶º////////ûûû /º¶µµ´³²±²²´º/    /ºµµ¶·ºº¹·¶¸º/    /»¹¹º¼»»¹¶·¸"
-    "º/    ////////º¸¸¶/û //////////º··¶/û /¶±±±±±³´¹·¶¸º/û /¸²³µµµ¸¸¸·µº/ûû /¹·"
-    "·¸¹¹º¹º»º/ûû  ////////////ûû    ûûûûûûûûûûûû                               "
+    "   ////////////    /\xbc\xb7\xb6\xb4\xb4\xb2\xb3\xb3\xb3\xb7\xb9/\xfb  /\xba\xb9\xba\xb8\xb8\xb6\xb7\xba\xb9\xb7\xb9\xba/\xfb /\xba\xb5\xb8\xb8\xbb\xba\xba\xba\xbb\xbb\xbb\xb9\xbb/\xfb /\xb8\xb5\xb7\xba//"
+    "////////\xfb /\xb8\xb4\xb6\xba////////\xfb\xfb\xfb /\xba\xb6\xb5\xb5\xb4\xb3\xb2\xb1\xb2\xb2\xb4\xba/    /\xba\xb5\xb5\xb6\xb7\xba\xba\xb9\xb7\xb6\xb8\xba/    /\xbb\xb9\xb9\xba\xbc\xbb\xbb\xb9\xb6\xb7\xb8"
+    "\xba/    ////////\xba\xb8\xb8\xb6/\xfb //////////\xba\xb7\xb7\xb6/\xfb /\xb6\xb1\xb1\xb1\xb1\xb1\xb3\xb4\xb9\xb7\xb6\xb8\xba/\xfb /\xb8\xb2\xb3\xb5\xb5\xb5\xb8\xb8\xb8\xb7\xb5\xba/\xfb\xfb /\xb9\xb7"
+    "\xb7\xb8\xb9\xb9\xba\xb9\xba\xbb\xba/\xfb\xfb  ////////////\xfb\xfb    \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                               "
     "      ",
     // 26 = 'T'
-    "//////////////// /·µµ²²²±±±²³´³¶/û/ººº»»¹¹¶´·¹¹¸¹/û/»»»»»¹¹¶´»»»»»/û//////¹"
-    "·¶¸//////û ûûûû/¸¶¶¸/ûûûûûû     /¸µ¶·/û          /¸µ´·/û          /·´´·/û  "
-    "        /·µ³·/û          /¸´²¶/û          /¸³²¶/û          /¸±²·/û         "
-    " /¹¶¶¹/û          //////û           ûûûûûû                                 "
+    "//////////////// /\xb7\xb5\xb5\xb2\xb2\xb2\xb1\xb1\xb1\xb2\xb3\xb4\xb3\xb6/\xfb/\xba\xba\xba\xbb\xbb\xb9\xb9\xb6\xb4\xb7\xb9\xb9\xb8\xb9/\xfb/\xbb\xbb\xbb\xbb\xbb\xb9\xb9\xb6\xb4\xbb\xbb\xbb\xbb\xbb/\xfb//////\xb9"
+    "\xb7\xb6\xb8//////\xfb \xfb\xfb\xfb\xfb/\xb8\xb6\xb6\xb8/\xfb\xfb\xfb\xfb\xfb\xfb     /\xb8\xb5\xb6\xb7/\xfb          /\xb8\xb5\xb4\xb7/\xfb          /\xb7\xb4\xb4\xb7/\xfb  "
+    "        /\xb7\xb5\xb3\xb7/\xfb          /\xb8\xb4\xb2\xb6/\xfb          /\xb8\xb3\xb2\xb6/\xfb          /\xb8\xb1\xb2\xb7/\xfb         "
+    " /\xb9\xb6\xb6\xb9/\xfb          //////\xfb           \xfb\xfb\xfb\xfb\xfb\xfb                                 "
     "      ",
     // 27 = 'U'
-    "//////    ////// /·´µ·/û   /¶³´·/û/··¹¹/û   /·µ·¸/û/¸·¸¹/û   /¸¶·¹/û/¸·¸¹/û"
-    "   /¸¶¶¹/û/·¶¸¹/û   /·¶µ¸/û/·¶¸¹/û   /·¶¶¸/û/¸·¸¹/û   /·µ¶¸/û/¸¸¸º/û   /·µ¶"
-    "¹/û/¸¸¸º/û   /¸µ¶¸/û/ºµ¸»¸////·µµµ»/û /³¸»¼·±±³´·¶µ/ûû /º·»¼»·´·µ¸¶º/û   //"
-    "½,»»¸»º½//ûû    û////////ûûû       ûûûûûûûû                                "
+    "//////    ////// /\xb7\xb4\xb5\xb7/\xfb   /\xb6\xb3\xb4\xb7/\xfb/\xb7\xb7\xb9\xb9/\xfb   /\xb7\xb5\xb7\xb8/\xfb/\xb8\xb7\xb8\xb9/\xfb   /\xb8\xb6\xb7\xb9/\xfb/\xb8\xb7\xb8\xb9/\xfb"
+    "   /\xb8\xb6\xb6\xb9/\xfb/\xb7\xb6\xb8\xb9/\xfb   /\xb7\xb6\xb5\xb8/\xfb/\xb7\xb6\xb8\xb9/\xfb   /\xb7\xb6\xb6\xb8/\xfb/\xb8\xb7\xb8\xb9/\xfb   /\xb7\xb5\xb6\xb8/\xfb/\xb8\xb8\xb8\xba/\xfb   /\xb7\xb5\xb6"
+    "\xb9/\xfb/\xb8\xb8\xb8\xba/\xfb   /\xb8\xb5\xb6\xb8/\xfb/\xba\xb5\xb8\xbb\xb8////\xb7\xb5\xb5\xb5\xbb/\xfb /\xb3\xb8\xbb\xbc\xb7\xb1\xb1\xb3\xb4\xb7\xb6\xb5/\xfb\xfb /\xba\xb7\xbb\xbc\xbb\xb7\xb4\xb7\xb5\xb8\xb6\xba/\xfb   //"
+    "\xbd,\xbb\xbb\xb8\xbb\xba\xbd//\xfb\xfb    \xfb////////\xfb\xfb\xfb       \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                "
     "      ",
     // 28 = 'V'
-    "//////    ////// /´³´·/û   /µ´´¸/û/¶·¸·/û   /¹·¸º/û/º···/û   /¸¸·º/û /···¶/"
-    "  /····/ûû /º¸¶µ/û /¶¶µº/û   /¸···//µµµ´/ûû   /º··¸//µ¶µº/û     /¸¹¹³³µ¶µ/û"
-    "û     /º¸¸µµ¶¶º/û       /·µµµ¶·/ûû       /ºµ´µ¶º/û         /µ´´¶/ûû        "
-    " /¸¸¸¹/û           ////ûû            ûûûû                                  "
+    "//////    ////// /\xb4\xb3\xb4\xb7/\xfb   /\xb5\xb4\xb4\xb8/\xfb/\xb6\xb7\xb8\xb7/\xfb   /\xb9\xb7\xb8\xba/\xfb/\xba\xb7\xb7\xb7/\xfb   /\xb8\xb8\xb7\xba/\xfb /\xb7\xb7\xb7\xb6/"
+    "  /\xb7\xb7\xb7\xb7/\xfb\xfb /\xba\xb8\xb6\xb5/\xfb /\xb6\xb6\xb5\xba/\xfb   /\xb8\xb7\xb7\xb7//\xb5\xb5\xb5\xb4/\xfb\xfb   /\xba\xb7\xb7\xb8//\xb5\xb6\xb5\xba/\xfb     /\xb8\xb9\xb9\xb3\xb3\xb5\xb6\xb5/\xfb"
+    "\xfb     /\xba\xb8\xb8\xb5\xb5\xb6\xb6\xba/\xfb       /\xb7\xb5\xb5\xb5\xb6\xb7/\xfb\xfb       /\xba\xb5\xb4\xb5\xb6\xba/\xfb         /\xb5\xb4\xb4\xb6/\xfb\xfb        "
+    " /\xb8\xb8\xb8\xb9/\xfb           ////\xfb\xfb            \xfb\xfb\xfb\xfb                                  "
     "      ",
     // 29 = 'W'
-    "/////      ///// /·³¸/û     /¹´·/û/¹¶º/û     /º¹º/û/ºµ¹/û     /¸¸¹/û/ºµ¹/û "
-    "    /¹¶·/û/º´¸/û //  /¹¶·/û/¹¶¸/û/µµ/ /¹·¸/û/¹¶¸//´ºº´//¹·¸/û/¹¶¸/³¸º¹¹´/¹¸"
-    "¹/û/¸¶³³¶¸»¹»·´¸¸¹/û/·µ±´µ¶¹»»····¹/û/¸±°³¶¹//¼¹·¶¸º/û/º°°³¹/ûû/¼·µ¸»/û /¶¶"
-    "¼/ûû  /¼¹º/ûû  ///ûû    ///ûû    ûûû      ûûû                              "
+    "/////      ///// /\xb7\xb3\xb8/\xfb     /\xb9\xb4\xb7/\xfb/\xb9\xb6\xba/\xfb     /\xba\xb9\xba/\xfb/\xba\xb5\xb9/\xfb     /\xb8\xb8\xb9/\xfb/\xba\xb5\xb9/\xfb "
+    "    /\xb9\xb6\xb7/\xfb/\xba\xb4\xb8/\xfb //  /\xb9\xb6\xb7/\xfb/\xb9\xb6\xb8/\xfb/\xb5\xb5/ /\xb9\xb7\xb8/\xfb/\xb9\xb6\xb8//\xb4\xba\xba\xb4//\xb9\xb7\xb8/\xfb/\xb9\xb6\xb8/\xb3\xb8\xba\xb9\xb9\xb4/\xb9\xb8"
+    "\xb9/\xfb/\xb8\xb6\xb3\xb3\xb6\xb8\xbb\xb9\xbb\xb7\xb4\xb8\xb8\xb9/\xfb/\xb7\xb5\xb1\xb4\xb5\xb6\xb9\xbb\xbb\xb7\xb7\xb7\xb7\xb9/\xfb/\xb8\xb1\xb0\xb3\xb6\xb9//\xbc\xb9\xb7\xb6\xb8\xba/\xfb/\xba\xb0\xb0\xb3\xb9/\xfb\xfb/\xbc\xb7\xb5\xb8\xbb/\xfb /\xb6\xb6"
+    "\xbc/\xfb\xfb  /\xbc\xb9\xba/\xfb\xfb  ///\xfb\xfb    ///\xfb\xfb    \xfb\xfb\xfb      \xfb\xfb\xfb                              "
     "      ",
     // 30 = 'X'
-    "/////      ///// /´³´´/    /²³´¶/û/¸·¹¹¸/  /´´µ·¹/û /º¸¹¼¸//´·µ¶º/ûû  /º¹¼¼"
-    "¸¶¶·µ¹/ûû    /»¼¼ºº´·¸/ûû      /½¼º¸´º/ûû        /º¹¹º/ûû        /½¹¹¸·º/  "
-    "      /»¹¹ºº··¸/      /º¹¹º»»¶·µ¹/    /º¸º¹»//»·µ¶º/  /¸·¹¹»/ûû/»·µ·¹/ /»»¼"
-    "¼/ûû  /»¹¹¼/û/////ûû    /////û ûûûûû      ûûûûû                            "
+    "/////      ///// /\xb4\xb3\xb4\xb4/    /\xb2\xb3\xb4\xb6/\xfb/\xb8\xb7\xb9\xb9\xb8/  /\xb4\xb4\xb5\xb7\xb9/\xfb /\xba\xb8\xb9\xbc\xb8//\xb4\xb7\xb5\xb6\xba/\xfb\xfb  /\xba\xb9\xbc\xbc"
+    "\xb8\xb6\xb6\xb7\xb5\xb9/\xfb\xfb    /\xbb\xbc\xbc\xba\xba\xb4\xb7\xb8/\xfb\xfb      /\xbd\xbc\xba\xb8\xb4\xba/\xfb\xfb        /\xba\xb9\xb9\xba/\xfb\xfb        /\xbd\xb9\xb9\xb8\xb7\xba/  "
+    "      /\xbb\xb9\xb9\xba\xba\xb7\xb7\xb8/      /\xba\xb9\xb9\xba\xbb\xbb\xb6\xb7\xb5\xb9/    /\xba\xb8\xba\xb9\xbb//\xbb\xb7\xb5\xb6\xba/  /\xb8\xb7\xb9\xb9\xbb/\xfb\xfb/\xbb\xb7\xb5\xb7\xb9/ /\xbb\xbb\xbc"
+    "\xbc/\xfb\xfb  /\xbb\xb9\xb9\xbc/\xfb/////\xfb\xfb    /////\xfb \xfb\xfb\xfb\xfb\xfb      \xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 31 = 'Y'
-    "/////      ////// /´³´´/    /²³´¶¸/û/¸·¹¹¸/  /´´µ·¹/ûû /º¸¹¼¸//´·µ¶º/ûû   /"
-    "º¹¼¼¸¶¶·µ¹/ûû     /»¼¼»º´·¸/ûû       /½¼¹¸´º/ûû         /¼º··/ûû          /"
-    "¼¹¶·/û           /,¸µ¸/û           /+¸´·/û           /*¸´¸/û           /»·´"
-    "¹/û           /»»¸»/û           //////û            ûûûûûû                  "
+    "/////      ////// /\xb4\xb3\xb4\xb4/    /\xb2\xb3\xb4\xb6\xb8/\xfb/\xb8\xb7\xb9\xb9\xb8/  /\xb4\xb4\xb5\xb7\xb9/\xfb\xfb /\xba\xb8\xb9\xbc\xb8//\xb4\xb7\xb5\xb6\xba/\xfb\xfb   /"
+    "\xba\xb9\xbc\xbc\xb8\xb6\xb6\xb7\xb5\xb9/\xfb\xfb     /\xbb\xbc\xbc\xbb\xba\xb4\xb7\xb8/\xfb\xfb       /\xbd\xbc\xb9\xb8\xb4\xba/\xfb\xfb         /\xbc\xba\xb7\xb7/\xfb\xfb          /"
+    "\xbc\xb9\xb6\xb7/\xfb           /,\xb8\xb5\xb8/\xfb           /+\xb8\xb4\xb7/\xfb           /*\xb8\xb4\xb8/\xfb           /\xbb\xb7\xb4"
+    "\xb9/\xfb           /\xbb\xbb\xb8\xbb/\xfb           //////\xfb            \xfb\xfb\xfb\xfb\xfb\xfb                  "
     "                        ",
     // 32 = 'Z'
-    "/////////////// /¹·³³³²´´¶³²³´/û/º¹·¹º·¶¶¶¶´µ·/û/»¹»»»º»ºº·µ¶º/û////////º¶·"
-    "µ¹/ûû ûûûûû/·¸´·¸/ûû      /·¸¸¸º/ûû      /¶¸¹¹º/ûû      /¶¸¸¹¸/ûû      /·¸¹"
-    "¹º/ûû      /·¸¹¹º»/////// /¸¸ºº¹»»¹¸µ±±¶/û/ºº¹¹»»¹¸µµ³²¸/û/»»¼¼»¼¼»»¹¸¹¼/û/"
-    "//////////////û ûûûûûûûûûûûûûûû                                ",
+    "/////////////// /\xb9\xb7\xb3\xb3\xb3\xb2\xb4\xb4\xb6\xb3\xb2\xb3\xb4/\xfb/\xba\xb9\xb7\xb9\xba\xb7\xb6\xb6\xb6\xb6\xb4\xb5\xb7/\xfb/\xbb\xb9\xbb\xbb\xbb\xba\xbb\xba\xba\xb7\xb5\xb6\xba/\xfb////////\xba\xb6\xb7"
+    "\xb5\xb9/\xfb\xfb \xfb\xfb\xfb\xfb\xfb/\xb7\xb8\xb4\xb7\xb8/\xfb\xfb      /\xb7\xb8\xb8\xb8\xba/\xfb\xfb      /\xb6\xb8\xb9\xb9\xba/\xfb\xfb      /\xb6\xb8\xb8\xb9\xb8/\xfb\xfb      /\xb7\xb8\xb9"
+    "\xb9\xba/\xfb\xfb      /\xb7\xb8\xb9\xb9\xba\xbb/////// /\xb8\xb8\xba\xba\xb9\xbb\xbb\xb9\xb8\xb5\xb1\xb1\xb6/\xfb/\xba\xba\xb9\xb9\xbb\xbb\xb9\xb8\xb5\xb5\xb3\xb2\xb8/\xfb/\xbb\xbb\xbc\xbc\xbb\xbc\xbc\xbb\xbb\xb9\xb8\xb9\xbc/\xfb/"
+    "//////////////\xfb \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                ",
     // 33 = 'a'
-    "                                                       //////        //·¶²²"
-    "³º/      /»¸¹¸º»µ·¼/    /º¸¶º//¹¶·º/û   /¸¶·///¹¶¸¹/û  /ºµµº/´´·¶·º/û  /¸µ¶"
-    "//¹»¹¶¸º/û /ºµ´º////¹··¹/û /·²³/ûûû/º·¶º/û/¸µ²º/û  /º·µº/û/¸¸·/ûû  /»º¹»/û/"
-    "////û   //////û Èûûûû    ûûûûûû                                ",
+    "                                                       //////        //\xb7\xb6\xb2\xb2"
+    "\xb3\xba/      /\xbb\xb8\xb9\xb8\xba\xbb\xb5\xb7\xbc/    /\xba\xb8\xb6\xba//\xb9\xb6\xb7\xba/\xfb   /\xb8\xb6\xb7///\xb9\xb6\xb8\xb9/\xfb  /\xba\xb5\xb5\xba/\xb4\xb4\xb7\xb6\xb7\xba/\xfb  /\xb8\xb5\xb6"
+    "//\xb9\xbb\xb9\xb6\xb8\xba/\xfb /\xba\xb5\xb4\xba////\xb9\xb7\xb7\xb9/\xfb /\xb7\xb2\xb3/\xfb\xfb\xfb/\xba\xb7\xb6\xba/\xfb/\xb8\xb5\xb2\xba/\xfb  /\xba\xb7\xb5\xba/\xfb/\xb8\xb8\xb7/\xfb\xfb  /\xbb\xba\xb9\xbb/\xfb/"
+    "////\xfb   //////\xfb \xc8\xfb\xfb\xfb\xfb    \xfb\xfb\xfb\xfb\xfb\xfb                                ",
     // 34 = 'b'
-    "                                             ////////////   /·²²²±±±±´¶º/  "
-    "/º¼¹¹¶¸¶¸¶¶µº/ /////////´³´¶/û/////////³³µ¶/û/·²±±²±±³µ³³º/û/¹·±²¹¶¶¹¹³·//û"
-    "/ºº³±////µ³·¶/û/¹º´±////³³µ¶/û/º¸µ´±±±³µ³³º/û/»¼»¹¶¶¶¹¹·º/ûû////////////ûû "
-    " ûûûûûûûûûûûû                                ",
+    "                                             ////////////   /\xb7\xb2\xb2\xb2\xb1\xb1\xb1\xb1\xb4\xb6\xba/  "
+    "/\xba\xbc\xb9\xb9\xb6\xb8\xb6\xb8\xb6\xb6\xb5\xba/ /////////\xb4\xb3\xb4\xb6/\xfb/////////\xb3\xb3\xb5\xb6/\xfb/\xb7\xb2\xb1\xb1\xb2\xb1\xb1\xb3\xb5\xb3\xb3\xba/\xfb/\xb9\xb7\xb1\xb2\xb9\xb6\xb6\xb9\xb9\xb3\xb7//\xfb"
+    "/\xba\xba\xb3\xb1////\xb5\xb3\xb7\xb6/\xfb/\xb9\xba\xb4\xb1////\xb3\xb3\xb5\xb6/\xfb/\xba\xb8\xb5\xb4\xb1\xb1\xb1\xb3\xb5\xb3\xb3\xba/\xfb/\xbb\xbc\xbb\xb9\xb6\xb6\xb6\xb9\xb9\xb7\xba/\xfb\xfb////////////\xfb\xfb "
+    " \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                ",
     // 35 = 'c'
-    "                                                 //////////   //»¸¸¶²²²²¶/û"
-    " /»¶¼¼¼¼¸º¸¹º/û /¸¹¼½////////û/»¸¹¼/ûûûûûûûûû/¹¸º¼/û        /¹¸º»/û        "
-    "/»¸»¼/û         /¸»¼¸////////  /¼»¼»´²´²³²¶/û  //,»»¸»ººº¹/û   û//////////û"
-    "     ûûûûûûûûûû                              ",
+    "                                                 //////////   //\xbb\xb8\xb8\xb6\xb2\xb2\xb2\xb2\xb6/\xfb"
+    " /\xbb\xb6\xbc\xbc\xbc\xbc\xb8\xba\xb8\xb9\xba/\xfb /\xb8\xb9\xbc\xbd////////\xfb/\xbb\xb8\xb9\xbc/\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb/\xb9\xb8\xba\xbc/\xfb        /\xb9\xb8\xba\xbb/\xfb        "
+    "/\xbb\xb8\xbb\xbc/\xfb         /\xb8\xbb\xbc\xb8////////  /\xbc\xbb\xbc\xbb\xb4\xb2\xb4\xb2\xb3\xb2\xb6/\xfb  //,\xbb\xbb\xb8\xbb\xba\xba\xba\xb9/\xfb   \xfb//////////\xfb"
+    "     \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                              ",
     // 36 = 'd'
-    "                                                ///////////     -¸²²²²±±²´º"
-    "//   /»º¹¹¹¸¸¹¶¶µ»/  /////////¹µ´¶/û //////ûûû/µ²¶»/ /¸µµ¸/û  /µ²´¹/û/¹·¸¹/"
-    "û  /µ²³¹/û/¸··¹/û  /´²³»/û/¸¶¶¸////´´²·/ûû/¸·µ´²±±´µ³·»/û /º¹¹¸¸¸¸¹¹º//ûû /"
-    "//////////ûûû   Èûûûûûûûûûû                                    ",
+    "                                                ///////////     -\xb8\xb2\xb2\xb2\xb2\xb1\xb1\xb2\xb4\xba"
+    "//   /\xbb\xba\xb9\xb9\xb9\xb8\xb8\xb9\xb6\xb6\xb5\xbb/  /////////\xb9\xb5\xb4\xb6/\xfb //////\xfb\xfb\xfb/\xb5\xb2\xb6\xbb/ /\xb8\xb5\xb5\xb8/\xfb  /\xb5\xb2\xb4\xb9/\xfb/\xb9\xb7\xb8\xb9/"
+    "\xfb  /\xb5\xb2\xb3\xb9/\xfb/\xb8\xb7\xb7\xb9/\xfb  /\xb4\xb2\xb3\xbb/\xfb/\xb8\xb6\xb6\xb8////\xb4\xb4\xb2\xb7/\xfb\xfb/\xb8\xb7\xb5\xb4\xb2\xb1\xb1\xb4\xb5\xb3\xb7\xbb/\xfb /\xba\xb9\xb9\xb8\xb8\xb8\xb8\xb9\xb9\xba//\xfb\xfb /"
+    "//////////\xfb\xfb\xfb   \xc8\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                    ",
     // 37 = 'e'
-    "                                                 //////////   //¹´¶³³´´³¸/û"
-    " /¼·¶¶º»º¼¼¹»/û /¹µµ¹////////û/º¶µµ¹////////û/¹¶µµµµ´´´²²¹/û/¹¶¶µ¶º¼»¼º¹»/û"
-    "/ºµµ´¹////////û /·²³¹////////û /¼¹³µ³²²²³´·/û  //º¸¹¹º¹ººº/û   û//////////û"
-    "     ûûûûûûûûûû                              ",
+    "                                                 //////////   //\xb9\xb4\xb6\xb3\xb3\xb4\xb4\xb3\xb8/\xfb"
+    " /\xbc\xb7\xb6\xb6\xba\xbb\xba\xbc\xbc\xb9\xbb/\xfb /\xb9\xb5\xb5\xb9////////\xfb/\xba\xb6\xb5\xb5\xb9////////\xfb/\xb9\xb6\xb5\xb5\xb5\xb5\xb4\xb4\xb4\xb2\xb2\xb9/\xfb/\xb9\xb6\xb6\xb5\xb6\xba\xbc\xbb\xbc\xba\xb9\xbb/\xfb"
+    "/\xba\xb5\xb5\xb4\xb9////////\xfb /\xb7\xb2\xb3\xb9////////\xfb /\xbc\xb9\xb3\xb5\xb3\xb2\xb2\xb2\xb3\xb4\xb7/\xfb  //\xba\xb8\xb9\xb9\xba\xb9\xba\xba\xba/\xfb   \xfb//////////\xfb"
+    "     \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                              ",
     // 38 = 'f'
-    "                                           ////////   //º´±±±²·/û /¼º¶¹¹¹¸¸"
-    "º/û /¸ºµº//////û/»¸¸µ////ûûûû/¹·µ´±±¶/û   /¹¶´´¹¸º/û   /¸·µ¹////û   /¹¶³¸/û"
-    "ûûû   /¹¶²¸/û      /ºº·º/û      //////û       ûûûûûû                       "
+    "                                           ////////   //\xba\xb4\xb1\xb1\xb1\xb2\xb7/\xfb /\xbc\xba\xb6\xb9\xb9\xb9\xb8\xb8"
+    "\xba/\xfb /\xb8\xba\xb5\xba//////\xfb/\xbb\xb8\xb8\xb5////\xfb\xfb\xfb\xfb/\xb9\xb7\xb5\xb4\xb1\xb1\xb6/\xfb   /\xb9\xb6\xb4\xb4\xb9\xb8\xba/\xfb   /\xb8\xb7\xb5\xb9////\xfb   /\xb9\xb6\xb3\xb8/\xfb"
+    "\xfb\xfb\xfb   /\xb9\xb6\xb2\xb8/\xfb      /\xba\xba\xb7\xba/\xfb      //////\xfb       \xfb\xfb\xfb\xfb\xfb\xfb                       "
     "         ",
     // 39 = 'g'
-    "                                                       ////////////   //»¸¸"
-    "µ´²²²²´¹/û /¼¸¹¼½¼¼¸º¸¹¹»/û /¶¸¹¼//////////û/»·¸¹/ûûûûûûûûûûû/º¸¸º/û   ////"
-    "// /º¸¸º/û   /¶±±¸/û/ºµ¸»/û   /¸²±¹/û /³¸»¼/////¹²±¹/û /¼·»¼·²±²³¸²±¹/û  //"
-    "½,»»¸»ºº··º/û   û////////////û     ûûûûûûûûûûûû                            "
+    "                                                       ////////////   //\xbb\xb8\xb8"
+    "\xb5\xb4\xb2\xb2\xb2\xb2\xb4\xb9/\xfb /\xbc\xb8\xb9\xbc\xbd\xbc\xbc\xb8\xba\xb8\xb9\xb9\xbb/\xfb /\xb6\xb8\xb9\xbc//////////\xfb/\xbb\xb7\xb8\xb9/\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb/\xba\xb8\xb8\xba/\xfb   ////"
+    "// /\xba\xb8\xb8\xba/\xfb   /\xb6\xb1\xb1\xb8/\xfb/\xba\xb5\xb8\xbb/\xfb   /\xb8\xb2\xb1\xb9/\xfb /\xb3\xb8\xbb\xbc/////\xb9\xb2\xb1\xb9/\xfb /\xbc\xb7\xbb\xbc\xb7\xb2\xb1\xb2\xb3\xb8\xb2\xb1\xb9/\xfb  //"
+    "\xbd,\xbb\xbb\xb8\xbb\xba\xba\xb7\xb7\xba/\xfb   \xfb////////////\xfb     \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 40 = 'h'
-    "                                                //////   ////// /¸´´·/û  /·"
-    "²²·/û/º¹¸¸/û  /¸¶µº/û/º¸¸¹/û  /¸µ´¹/û/º¸¸¹/////¸µ²¹/û/º¸¸¸¶´²²³¶µ²·/û/º··ºº"
-    "º¹¹¹¹µ²·/û/¹¶·º/////¹´²·/û/¹µ¶º/ûûû/¹´²·/û/¹¶·¹/û  /¸³³·/û/º¹¹»/û  /º¸·º/û/"
-    "-//-/û  //////û Èûûûûû   ûûûûûû                                ",
+    "                                                //////   ////// /\xb8\xb4\xb4\xb7/\xfb  /\xb7"
+    "\xb2\xb2\xb7/\xfb/\xba\xb9\xb8\xb8/\xfb  /\xb8\xb6\xb5\xba/\xfb/\xba\xb8\xb8\xb9/\xfb  /\xb8\xb5\xb4\xb9/\xfb/\xba\xb8\xb8\xb9/////\xb8\xb5\xb2\xb9/\xfb/\xba\xb8\xb8\xb8\xb6\xb4\xb2\xb2\xb3\xb6\xb5\xb2\xb7/\xfb/\xba\xb7\xb7\xba\xba"
+    "\xba\xb9\xb9\xb9\xb9\xb5\xb2\xb7/\xfb/\xb9\xb6\xb7\xba/////\xb9\xb4\xb2\xb7/\xfb/\xb9\xb5\xb6\xba/\xfb\xfb\xfb/\xb9\xb4\xb2\xb7/\xfb/\xb9\xb6\xb7\xb9/\xfb  /\xb8\xb3\xb3\xb7/\xfb/\xba\xb9\xb9\xbb/\xfb  /\xba\xb8\xb7\xba/\xfb/"
+    "-//-/\xfb  //////\xfb \xc8\xfb\xfb\xfb\xfb\xfb   \xfb\xfb\xfb\xfb\xfb\xfb                                ",
     // 41 = 'i'
-    "                     ////// /·³³¸/û/¹¹¸»/û/¸º¸º/û/¹ººº/û/¹º¹º/û/¹»¹»/û/¸¹»»"
-    "/û/¸·¹º/û/¸µ¸¹/û/º¹ºº/û//////û Èûûûûû              ",
+    "                     ////// /\xb7\xb3\xb3\xb8/\xfb/\xb9\xb9\xb8\xbb/\xfb/\xb8\xba\xb8\xba/\xfb/\xb9\xba\xba\xba/\xfb/\xb9\xba\xb9\xba/\xfb/\xb9\xbb\xb9\xbb/\xfb/\xb8\xb9\xbb\xbb"
+    "/\xfb/\xb8\xb7\xb9\xba/\xfb/\xb8\xb5\xb8\xb9/\xfb/\xba\xb9\xba\xba/\xfb//////\xfb \xc8\xfb\xfb\xfb\xfb\xfb              ",
     // 42 = 'j'
-    "                                         //////      /·²´º/û     /º¶¹¼/û   "
-    "  /»¸º»/û     /»º»º/û     /º¹º»/û     /¹¹¸º/û     /»¸¶¹/û/////¹»¹¸º/û/¶³´¶¶"
-    "¹¹º/ûû/¹»¹¹»»»//û ////////ûûû  ûûûûûûûû                           ",
+    "                                         //////      /\xb7\xb2\xb4\xba/\xfb     /\xba\xb6\xb9\xbc/\xfb   "
+    "  /\xbb\xb8\xba\xbb/\xfb     /\xbb\xba\xbb\xba/\xfb     /\xba\xb9\xba\xbb/\xfb     /\xb9\xb9\xb8\xba/\xfb     /\xbb\xb8\xb6\xb9/\xfb/////\xb9\xbb\xb9\xb8\xba/\xfb/\xb6\xb3\xb4\xb6\xb6"
+    "\xb9\xb9\xba/\xfb\xfb/\xb9\xbb\xb9\xb9\xbb\xbb\xbb//\xfb ////////\xfb\xfb\xfb  \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                           ",
     // 43 = 'k'
-    "                                                   //////   //////  /¶²±µ/û"
-    " /±±±±¸/û /·¶³´/û/±´¶µº/ûû /¶³´¶//²´´´¸/ûû  /·²±·/²µ´³¹/ûû   /¹³²´µ¶·´´/ûû "
-    "   /¸³²·/¹´³³²/     /·´²·//¸³²³µ/    /¸µ²¶/û/¸²³¸´/   /¶µ³¶/û /·´¸·µ/  /¹¸¸"
-    "¹/û  /»¼º»¶/ //////û   //////û ûûûûûû    ûûûûûû                            "
+    "                                                   //////   //////  /\xb6\xb2\xb1\xb5/\xfb"
+    " /\xb1\xb1\xb1\xb1\xb8/\xfb /\xb7\xb6\xb3\xb4/\xfb/\xb1\xb4\xb6\xb5\xba/\xfb\xfb /\xb6\xb3\xb4\xb6//\xb2\xb4\xb4\xb4\xb8/\xfb\xfb  /\xb7\xb2\xb1\xb7/\xb2\xb5\xb4\xb3\xb9/\xfb\xfb   /\xb9\xb3\xb2\xb4\xb5\xb6\xb7\xb4\xb4/\xfb\xfb "
+    "   /\xb8\xb3\xb2\xb7/\xb9\xb4\xb3\xb3\xb2/     /\xb7\xb4\xb2\xb7//\xb8\xb3\xb2\xb3\xb5/    /\xb8\xb5\xb2\xb6/\xfb/\xb8\xb2\xb3\xb8\xb4/   /\xb6\xb5\xb3\xb6/\xfb /\xb7\xb4\xb8\xb7\xb5/  /\xb9\xb8\xb8"
+    "\xb9/\xfb  /\xbb\xbc\xba\xbb\xb6/ //////\xfb   //////\xfb \xfb\xfb\xfb\xfb\xfb\xfb    \xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 44 = 'l'
-    "                                    //////      /º´²·/û     /¼¹¶»/û     /»º"
-    "º»/û     /»»º»/û     /»¸¹º/û     /º¸¸¹/û     /¹¶¹»/û     /¹¶¸»¹/////  /¸¹¹²"
-    "³´³¶/û //»»·¹¹¸¹/û  û////////û    ûûûûûûûû                        ",
+    "                                    //////      /\xba\xb4\xb2\xb7/\xfb     /\xbc\xb9\xb6\xbb/\xfb     /\xbb\xba"
+    "\xba\xbb/\xfb     /\xbb\xbb\xba\xbb/\xfb     /\xbb\xb8\xb9\xba/\xfb     /\xba\xb8\xb8\xb9/\xfb     /\xb9\xb6\xb9\xbb/\xfb     /\xb9\xb6\xb8\xbb\xb9/////  /\xb8\xb9\xb9\xb2"
+    "\xb3\xb4\xb3\xb6/\xfb //\xbb\xbb\xb7\xb9\xb9\xb8\xb9/\xfb  \xfb////////\xfb    \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                        ",
     // 45 = 'm'
-    "                                                     ///      ///    /µ±¶/ "
-    "   /´±³/  /¸²±µ¶/  /µ¸´¶¸/ /·³³¶»·//³¹·¶¸»/û/¸³µ¸»»´´µ·µ·¸»/û/¶³µ¶¼»º¹µ¶´¸º"
-    "¼/û/¶³´·¼»º¸¶µ³ºº*/û/¶´³¸/¼º¶¹/·º»»/û/µ´´·//º¹//¸ºº»/û/µ³³·/û//û/¸»¹¹/û/¸¸¸"
-    "¹/û ûû/º¼»º/û//////û   //////û Èûûûûû    ûûûûûû                            "
+    "                                                     ///      ///    /\xb5\xb1\xb6/ "
+    "   /\xb4\xb1\xb3/  /\xb8\xb2\xb1\xb5\xb6/  /\xb5\xb8\xb4\xb6\xb8/ /\xb7\xb3\xb3\xb6\xbb\xb7//\xb3\xb9\xb7\xb6\xb8\xbb/\xfb/\xb8\xb3\xb5\xb8\xbb\xbb\xb4\xb4\xb5\xb7\xb5\xb7\xb8\xbb/\xfb/\xb6\xb3\xb5\xb6\xbc\xbb\xba\xb9\xb5\xb6\xb4\xb8\xba"
+    "\xbc/\xfb/\xb6\xb3\xb4\xb7\xbc\xbb\xba\xb8\xb6\xb5\xb3\xba\xba*/\xfb/\xb6\xb4\xb3\xb8/\xbc\xba\xb6\xb9/\xb7\xba\xbb\xbb/\xfb/\xb5\xb4\xb4\xb7//\xba\xb9//\xb8\xba\xba\xbb/\xfb/\xb5\xb3\xb3\xb7/\xfb//\xfb/\xb8\xbb\xb9\xb9/\xfb/\xb8\xb8\xb8"
+    "\xb9/\xfb \xfb\xfb/\xba\xbc\xbb\xba/\xfb//////\xfb   //////\xfb \xc8\xfb\xfb\xfb\xfb\xfb    \xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 46 = 'n'
-    "                                                     ///     //////  /±±º/ "
-    "   /¸°±¸/û/¸´µ´º/   /¶°´¸/û/¹¶µµ¶º/  /¶°µ¹/û/¹µµ´¶¶º/ /·°´¹/û/º¶¶¶¶¶¶º//·°³"
-    "¹/û/º¶µ´¶¶´²º/¶°³¹/û/º¶´·/º²²´´²°³¹/û/ºµ³¸//º²µ´²°³¹/û/»µ³¸/û/º³²²°²»/û/»¹¸"
-    "º/û //º¸¶¸/ûû//////û  û////ûû  Èûûûûû    ûûûû                              "
+    "                                                     ///     //////  /\xb1\xb1\xba/ "
+    "   /\xb8\xb0\xb1\xb8/\xfb/\xb8\xb4\xb5\xb4\xba/   /\xb6\xb0\xb4\xb8/\xfb/\xb9\xb6\xb5\xb5\xb6\xba/  /\xb6\xb0\xb5\xb9/\xfb/\xb9\xb5\xb5\xb4\xb6\xb6\xba/ /\xb7\xb0\xb4\xb9/\xfb/\xba\xb6\xb6\xb6\xb6\xb6\xb6\xba//\xb7\xb0\xb3"
+    "\xb9/\xfb/\xba\xb6\xb5\xb4\xb6\xb6\xb4\xb2\xba/\xb6\xb0\xb3\xb9/\xfb/\xba\xb6\xb4\xb7/\xba\xb2\xb2\xb4\xb4\xb2\xb0\xb3\xb9/\xfb/\xba\xb5\xb3\xb8//\xba\xb2\xb5\xb4\xb2\xb0\xb3\xb9/\xfb/\xbb\xb5\xb3\xb8/\xfb/\xba\xb3\xb2\xb2\xb0\xb2\xbb/\xfb/\xbb\xb9\xb8"
+    "\xba/\xfb //\xba\xb8\xb6\xb8/\xfb\xfb//////\xfb  \xfb////\xfb\xfb  \xc8\xfb\xfb\xfb\xfb\xfb    \xfb\xfb\xfb\xfb                              "
     "      ",
     // 47 = 'o'
     "                                                          /////////       /"
-    "/¹³±±±±±´¹//    /»±µµ¸¸»»º¶·¸»/   /²³µ»/////¼·¸µ/û /º´µ¸/ûûûûû/¹¸¶º/ /¸´µ¸/"
-    "û    /¹º¹º/û/¸´´¸/û    /¹»»º/û/¸´³¶/û    /º»»º/û//²²³µ/////¶¹ºº/ûû /»·²µ±±±"
-    "³´¸º¸¼/û   //¹¹¸·¹¼º»»//ûû    û/////////ûûû       ûûûûûûûûû                "
+    "/\xb9\xb3\xb1\xb1\xb1\xb1\xb1\xb4\xb9//    /\xbb\xb1\xb5\xb5\xb8\xb8\xbb\xbb\xba\xb6\xb7\xb8\xbb/   /\xb2\xb3\xb5\xbb/////\xbc\xb7\xb8\xb5/\xfb /\xba\xb4\xb5\xb8/\xfb\xfb\xfb\xfb\xfb/\xb9\xb8\xb6\xba/ /\xb8\xb4\xb5\xb8/"
+    "\xfb    /\xb9\xba\xb9\xba/\xfb/\xb8\xb4\xb4\xb8/\xfb    /\xb9\xbb\xbb\xba/\xfb/\xb8\xb4\xb3\xb6/\xfb    /\xba\xbb\xbb\xba/\xfb//\xb2\xb2\xb3\xb5/////\xb6\xb9\xba\xba/\xfb\xfb /\xbb\xb7\xb2\xb5\xb1\xb1\xb1"
+    "\xb3\xb4\xb8\xba\xb8\xbc/\xfb   //\xb9\xb9\xb8\xb7\xb9\xbc\xba\xbb\xbb//\xfb\xfb    \xfb/////////\xfb\xfb\xfb       \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                "
     "                        ",
     // 48 = 'p'
-    "                                             ////////////   /·²²²±±±±´¶º/  "
-    "/º¼¹¹¶¸¶¸¶¶µº/ /////////´³´¶/û/////////³³µ¶/û/·²±±²±±³µ³³º/û/¹·±²¹¶¶¹¹·º/ûû"
-    "/ºº³±///////ûû /¹º´³/ûûûûûûû  /º¸µ´/û        /»¼»¹/û        //////û        "
-    " Èûûûûû                                      ",
+    "                                             ////////////   /\xb7\xb2\xb2\xb2\xb1\xb1\xb1\xb1\xb4\xb6\xba/  "
+    "/\xba\xbc\xb9\xb9\xb6\xb8\xb6\xb8\xb6\xb6\xb5\xba/ /////////\xb4\xb3\xb4\xb6/\xfb/////////\xb3\xb3\xb5\xb6/\xfb/\xb7\xb2\xb1\xb1\xb2\xb1\xb1\xb3\xb5\xb3\xb3\xba/\xfb/\xb9\xb7\xb1\xb2\xb9\xb6\xb6\xb9\xb9\xb7\xba/\xfb\xfb"
+    "/\xba\xba\xb3\xb1///////\xfb\xfb /\xb9\xba\xb4\xb3/\xfb\xfb\xfb\xfb\xfb\xfb\xfb  /\xba\xb8\xb5\xb4/\xfb        /\xbb\xbc\xbb\xb9/\xfb        //////\xfb        "
+    " \xc8\xfb\xfb\xfb\xfb\xfb                                      ",
     // 49 = 'q'
     "                                                          /////////       /"
-    "/¹³±±±±±´¹//    /»±µµ¸¸»»º¶·¸»/   /²³µ»/////¼·¸µ/û /º´µ¸/ûûûûû/¹¸¶º/ /¸´µ¸/"
-    "û    /¹º¹¹/û/¸µµ¸/û    /¹»»º/û/¸µ¸¶/û    /º»»º/û /¸¸µ¹/////¶¹ºº/ûû /»¹¸µ¶±±"
-    "³¶¸º¸¼/û   //¹¹¸·¹¼º»»//ûû    û//////¸»/ûûû       ûûûû/º»/û             ///"
-    "/û              ûûûû    ",
+    "/\xb9\xb3\xb1\xb1\xb1\xb1\xb1\xb4\xb9//    /\xbb\xb1\xb5\xb5\xb8\xb8\xbb\xbb\xba\xb6\xb7\xb8\xbb/   /\xb2\xb3\xb5\xbb/////\xbc\xb7\xb8\xb5/\xfb /\xba\xb4\xb5\xb8/\xfb\xfb\xfb\xfb\xfb/\xb9\xb8\xb6\xba/ /\xb8\xb4\xb5\xb8/"
+    "\xfb    /\xb9\xba\xb9\xb9/\xfb/\xb8\xb5\xb5\xb8/\xfb    /\xb9\xbb\xbb\xba/\xfb/\xb8\xb5\xb8\xb6/\xfb    /\xba\xbb\xbb\xba/\xfb /\xb8\xb8\xb5\xb9/////\xb6\xb9\xba\xba/\xfb\xfb /\xbb\xb9\xb8\xb5\xb6\xb1\xb1"
+    "\xb3\xb6\xb8\xba\xb8\xbc/\xfb   //\xb9\xb9\xb8\xb7\xb9\xbc\xba\xbb\xbb//\xfb\xfb    \xfb//////\xb8\xbb/\xfb\xfb\xfb       \xfb\xfb\xfb\xfb/\xba\xbb/\xfb             ///"
+    "/\xfb              \xfb\xfb\xfb\xfb    ",
     // 50 = 'r'
-    "                                                /////////////   /¸±²±±±±±²²"
-    "²º/  /º¸¹¸¹¹¹¸··´²º/ //////////¸µ³¶/û//////////¸´µ¸/û/·²±±±±±³²³³µ/ûû/¸´¶¶¸"
-    "ºº¹·³³´/û /·´µµ////º²³´·/ /¶µ´¶/ûûû/²³³¸/û/¶µ´¶/û  /³²²¶/û/¹ºº¹/û  /¸º¹¹/û/"
-    "/////û  //////û Èûûûûû   ûûûûûû                                ",
+    "                                                /////////////   /\xb8\xb1\xb2\xb1\xb1\xb1\xb1\xb1\xb2\xb2"
+    "\xb2\xba/  /\xba\xb8\xb9\xb8\xb9\xb9\xb9\xb8\xb7\xb7\xb4\xb2\xba/ //////////\xb8\xb5\xb3\xb6/\xfb//////////\xb8\xb4\xb5\xb8/\xfb/\xb7\xb2\xb1\xb1\xb1\xb1\xb1\xb3\xb2\xb3\xb3\xb5/\xfb\xfb/\xb8\xb4\xb6\xb6\xb8"
+    "\xba\xba\xb9\xb7\xb3\xb3\xb4/\xfb /\xb7\xb4\xb5\xb5////\xba\xb2\xb3\xb4\xb7/ /\xb6\xb5\xb4\xb6/\xfb\xfb\xfb/\xb2\xb3\xb3\xb8/\xfb/\xb6\xb5\xb4\xb6/\xfb  /\xb3\xb2\xb2\xb6/\xfb/\xb9\xba\xba\xb9/\xfb  /\xb8\xba\xb9\xb9/\xfb/"
+    "/////\xfb  //////\xfb \xc8\xfb\xfb\xfb\xfb\xfb   \xfb\xfb\xfb\xfb\xfb\xfb                                ",
     // 51 = 's'
-    "                                                  /////////////  /¶³²²²²´¶´"
-    "·¹º/û/»´´¸»¼»ººº½-¼/û/¹´´¸//////////û/¹´³¸////////ûûû/»´´·³²²²´´¶º/   /º¼º¼"
-    "º¹º¼¼¸¸»/   ////////¼¸¹º/û//////////»¸¹º/û/¸²±±³²³¶µ¶¸¸»/û/ºº¹º¼º»º¹¹º¼/ûû/"
-    "////////////ûû  Èûûûûûûûûûûûû                                  ",
+    "                                                  /////////////  /\xb6\xb3\xb2\xb2\xb2\xb2\xb4\xb6\xb4"
+    "\xb7\xb9\xba/\xfb/\xbb\xb4\xb4\xb8\xbb\xbc\xbb\xba\xba\xba\xbd-\xbc/\xfb/\xb9\xb4\xb4\xb8//////////\xfb/\xb9\xb4\xb3\xb8////////\xfb\xfb\xfb/\xbb\xb4\xb4\xb7\xb3\xb2\xb2\xb2\xb4\xb4\xb6\xba/   /\xba\xbc\xba\xbc"
+    "\xba\xb9\xba\xbc\xbc\xb8\xb8\xbb/   ////////\xbc\xb8\xb9\xba/\xfb//////////\xbb\xb8\xb9\xba/\xfb/\xb8\xb2\xb1\xb1\xb3\xb2\xb3\xb6\xb5\xb6\xb8\xb8\xbb/\xfb/\xba\xba\xb9\xba\xbc\xba\xbb\xba\xb9\xb9\xba\xbc/\xfb\xfb/"
+    "////////////\xfb\xfb  \xc8\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                  ",
     // 52 = 't'
-    "                                       //////////// /¸²±±±±²²²µ/û/»»¶¶±³¶¹»"
-    "»/û////µ²³·////û Èû/µ³¶¶/ûûûû   /µ±µ¸/û      /µ±µ¸/û      /µ²´¸/û      /µ³³"
-    "·/û      /¶³³¶/û      /¹¸¸¹/û      //////û       ûûûûûû                    "
+    "                                       //////////// /\xb8\xb2\xb1\xb1\xb1\xb1\xb2\xb2\xb2\xb5/\xfb/\xbb\xbb\xb6\xb6\xb1\xb3\xb6\xb9\xbb"
+    "\xbb/\xfb////\xb5\xb2\xb3\xb7////\xfb \xc8\xfb/\xb5\xb3\xb6\xb6/\xfb\xfb\xfb\xfb   /\xb5\xb1\xb5\xb8/\xfb      /\xb5\xb1\xb5\xb8/\xfb      /\xb5\xb2\xb4\xb8/\xfb      /\xb5\xb3\xb3"
+    "\xb7/\xfb      /\xb6\xb3\xb3\xb6/\xfb      /\xb9\xb8\xb8\xb9/\xfb      //////\xfb       \xfb\xfb\xfb\xfb\xfb\xfb                    "
     "         ",
     // 53 = 'u'
-    "                                                   //////    ////// /·²²¹/û"
-    "   /¸´²¶/û/º»»»/û   /º¹µ¶/û/»»»º/û   /¹···/û/»»»º/û   /¹¸¸¸/û/¼»ºº/û   /»ºº"
-    "¹/û/¼»º¹/û   /»»º¹/û/»»º¸/û   /»º¹»/û /»º¶´////º¹¸¸/ûû /½¸¸²±²´´¸·¶¼/û   //"
-    "¼ºº»½¼¹¼//ûû    û////////ûûû       ûûûûûûûû                                "
+    "                                                   //////    ////// /\xb7\xb2\xb2\xb9/\xfb"
+    "   /\xb8\xb4\xb2\xb6/\xfb/\xba\xbb\xbb\xbb/\xfb   /\xba\xb9\xb5\xb6/\xfb/\xbb\xbb\xbb\xba/\xfb   /\xb9\xb7\xb7\xb7/\xfb/\xbb\xbb\xbb\xba/\xfb   /\xb9\xb8\xb8\xb8/\xfb/\xbc\xbb\xba\xba/\xfb   /\xbb\xba\xba"
+    "\xb9/\xfb/\xbc\xbb\xba\xb9/\xfb   /\xbb\xbb\xba\xb9/\xfb/\xbb\xbb\xba\xb8/\xfb   /\xbb\xba\xb9\xbb/\xfb /\xbb\xba\xb6\xb4////\xba\xb9\xb8\xb8/\xfb\xfb /\xbd\xb8\xb8\xb2\xb1\xb2\xb4\xb4\xb8\xb7\xb6\xbc/\xfb   //"
+    "\xbc\xba\xba\xbb\xbd\xbc\xb9\xbc//\xfb\xfb    \xfb////////\xfb\xfb\xfb       \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                "
     "      ",
     // 54 = 'v'
-    "                                                   //////    ////// /·±±¶/û"
-    "   /¶²±±/û/¹´µ·/û   /¶´´¸/û /¶µµ¹/  /¸³µµ/ûû /¸µ´¸/û /¶´µ¸/û   /¶¶¶¹//¸µ´³/"
-    "ûû   /¸´¶¶¹¹³µ²¸/û     /´µµ²²´´²/ûû     /¸´¶´²µ´¸/û       /´¶·´³²/ûû       "
-    "/¹»»¼¸·/û         //////ûû          ûûûûûû                                 "
+    "                                                   //////    ////// /\xb7\xb1\xb1\xb6/\xfb"
+    "   /\xb6\xb2\xb1\xb1/\xfb/\xb9\xb4\xb5\xb7/\xfb   /\xb6\xb4\xb4\xb8/\xfb /\xb6\xb5\xb5\xb9/  /\xb8\xb3\xb5\xb5/\xfb\xfb /\xb8\xb5\xb4\xb8/\xfb /\xb6\xb4\xb5\xb8/\xfb   /\xb6\xb6\xb6\xb9//\xb8\xb5\xb4\xb3/"
+    "\xfb\xfb   /\xb8\xb4\xb6\xb6\xb9\xb9\xb3\xb5\xb2\xb8/\xfb     /\xb4\xb5\xb5\xb2\xb2\xb4\xb4\xb2/\xfb\xfb     /\xb8\xb4\xb6\xb4\xb2\xb5\xb4\xb8/\xfb       /\xb4\xb6\xb7\xb4\xb3\xb2/\xfb\xfb       "
+    "/\xb9\xbb\xbb\xbc\xb8\xb7/\xfb         //////\xfb\xfb          \xfb\xfb\xfb\xfb\xfb\xfb                                 "
     "      ",
     // 55 = 'w'
-    "                                                   /////      ///// /¶²µ/û "
-    "    /¹¶¸/û/·µ·/û //  /¼½º/û/·µ·/û/²²/ /»¼¹/û/·µ·//²·¸²//º»¹/û/¸··/²¸···´/º¹"
-    "¹/û/·´¶³´··¶¸»»¹¸¹/û/¶³³²³¸¼»¹»»¸¹¸/û/¶µ´²³¼//»ºº¸¹¸/û/ºµ³²¸/ûû/º¶¸¸¹/û /»º"
-    "¼/ûû  /½¼½/ûû  ///ûû    ///ûû    ûûû      ûûû                              "
+    "                                                   /////      ///// /\xb6\xb2\xb5/\xfb "
+    "    /\xb9\xb6\xb8/\xfb/\xb7\xb5\xb7/\xfb //  /\xbc\xbd\xba/\xfb/\xb7\xb5\xb7/\xfb/\xb2\xb2/ /\xbb\xbc\xb9/\xfb/\xb7\xb5\xb7//\xb2\xb7\xb8\xb2//\xba\xbb\xb9/\xfb/\xb8\xb7\xb7/\xb2\xb8\xb7\xb7\xb7\xb4/\xba\xb9"
+    "\xb9/\xfb/\xb7\xb4\xb6\xb3\xb4\xb7\xb7\xb6\xb8\xbb\xbb\xb9\xb8\xb9/\xfb/\xb6\xb3\xb3\xb2\xb3\xb8\xbc\xbb\xb9\xbb\xbb\xb8\xb9\xb8/\xfb/\xb6\xb5\xb4\xb2\xb3\xbc//\xbb\xba\xba\xb8\xb9\xb8/\xfb/\xba\xb5\xb3\xb2\xb8/\xfb\xfb/\xba\xb6\xb8\xb8\xb9/\xfb /\xbb\xba"
+    "\xbc/\xfb\xfb  /\xbd\xbc\xbd/\xfb\xfb  ///\xfb\xfb    ///\xfb\xfb    \xfb\xfb\xfb      \xfb\xfb\xfb                              "
     "      ",
     // 56 = 'x'
-    "                                                   //////    ////// /²±²²²/"
-    "  /²´´´¹/û /¸¶¶µ±//¶»»ºº/ûû  /¸³´³±±·»»»/ûû    /¸µ³µ¸»»¼/ûû      /¸³µ¶¼¼/ûû"
-    "       /³³´·¼»/û       /±²´³¶»»¶/      /²³±´ºº»»º´/    /²³³±¸//º¸¸¸²/  /¸¸¸"
-    "·¶/ûû/ººº¸µ/ //////ûû  //////û Èûûûûû    ûûûûûû                            "
+    "                                                   //////    ////// /\xb2\xb1\xb2\xb2\xb2/"
+    "  /\xb2\xb4\xb4\xb4\xb9/\xfb /\xb8\xb6\xb6\xb5\xb1//\xb6\xbb\xbb\xba\xba/\xfb\xfb  /\xb8\xb3\xb4\xb3\xb1\xb1\xb7\xbb\xbb\xbb/\xfb\xfb    /\xb8\xb5\xb3\xb5\xb8\xbb\xbb\xbc/\xfb\xfb      /\xb8\xb3\xb5\xb6\xbc\xbc/\xfb\xfb"
+    "       /\xb3\xb3\xb4\xb7\xbc\xbb/\xfb       /\xb1\xb2\xb4\xb3\xb6\xbb\xbb\xb6/      /\xb2\xb3\xb1\xb4\xba\xba\xbb\xbb\xba\xb4/    /\xb2\xb3\xb3\xb1\xb8//\xba\xb8\xb8\xb8\xb2/  /\xb8\xb8\xb8"
+    "\xb7\xb6/\xfb\xfb/\xba\xba\xba\xb8\xb5/ //////\xfb\xfb  //////\xfb \xc8\xfb\xfb\xfb\xfb\xfb    \xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      ",
     // 57 = 'y'
-    "                                                   /////      ///// /´´±±/ "
-    "   /²²±²/û/»¹µ²³/  /²µ´µ¹/û /º·´³³//³µ¶µ¹/ûû  /º¶²µ±±µ´¶¹/ûû    /º²·¶¶¶¶¹/û"
-    "û      /¸·¶¶µ¸/ûû        /¹¶¶·/ûû         /º¶µ¶/û          /»¸µ¶/û         "
-    " /»º¹¹/û          //////û           ûûûûûû                                 "
+    "                                                   /////      ///// /\xb4\xb4\xb1\xb1/ "
+    "   /\xb2\xb2\xb1\xb2/\xfb/\xbb\xb9\xb5\xb2\xb3/  /\xb2\xb5\xb4\xb5\xb9/\xfb /\xba\xb7\xb4\xb3\xb3//\xb3\xb5\xb6\xb5\xb9/\xfb\xfb  /\xba\xb6\xb2\xb5\xb1\xb1\xb5\xb4\xb6\xb9/\xfb\xfb    /\xba\xb2\xb7\xb6\xb6\xb6\xb6\xb9/\xfb"
+    "\xfb      /\xb8\xb7\xb6\xb6\xb5\xb8/\xfb\xfb        /\xb9\xb6\xb6\xb7/\xfb\xfb         /\xba\xb6\xb5\xb6/\xfb          /\xbb\xb8\xb5\xb6/\xfb         "
+    " /\xbb\xba\xb9\xb9/\xfb          //////\xfb           \xfb\xfb\xfb\xfb\xfb\xfb                                 "
     "      ",
     // 58 = 'z'
-    "                                                   //////////////// /µ±±±²±"
-    "±±±²±²²·/û/¹¸·¸¹¸¶±µµ´´¶¸/û////////³µµ´´´¶/û ûûûû//´²µµ´³º//û   //´±´µ¶·º//"
-    "ûûû //´²³²´³º//ûûû  /·±´´´²º//ûûû    /¶³³µ³////////// /¶²²³µ²±±±²±±±µ/û/¹¹·"
-    "¸¸¸·¶¸¹¸·¹¼/û////////////////û Èûûûûûûûûûûûûûûû                            "
+    "                                                   //////////////// /\xb5\xb1\xb1\xb1\xb2\xb1"
+    "\xb1\xb1\xb1\xb2\xb1\xb2\xb2\xb7/\xfb/\xb9\xb8\xb7\xb8\xb9\xb8\xb6\xb1\xb5\xb5\xb4\xb4\xb6\xb8/\xfb////////\xb3\xb5\xb5\xb4\xb4\xb4\xb6/\xfb \xfb\xfb\xfb\xfb//\xb4\xb2\xb5\xb5\xb4\xb3\xba//\xfb   //\xb4\xb1\xb4\xb5\xb6\xb7\xba//"
+    "\xfb\xfb\xfb //\xb4\xb2\xb3\xb2\xb4\xb3\xba//\xfb\xfb\xfb  /\xb7\xb1\xb4\xb4\xb4\xb2\xba//\xfb\xfb\xfb    /\xb6\xb3\xb3\xb5\xb3////////// /\xb6\xb2\xb2\xb3\xb5\xb2\xb1\xb1\xb1\xb2\xb1\xb1\xb1\xb5/\xfb/\xb9\xb9\xb7"
+    "\xb8\xb8\xb8\xb7\xb6\xb8\xb9\xb8\xb7\xb9\xbc/\xfb////////////////\xfb \xc8\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                            "
     "      "
 };
 
 char *nmare =
     "  //      //////                                                           "
-    "                                          //////  /²²/     /²¯±²/û         "
+    "                                          //////  /\xb2\xb2/     /\xb2\xaf\xb1\xb2/\xfb         "
     "                                                                           "
-    "                /²¯²²/û/µ±±²/    /³±³¶/û                                   "
-    "                                                                 /³±´´/û/³´"
-    "³²µ/   /³±¶·//////   /////////////////   ///////////////// ///      ///    "
-    "    ////// /////////////     ///////////³±´¶/û/´´³³·µ/  /µ²´¶/¶´´·/û//º¹´´¯"
-    "±±³³µ¹/·±µ·/û  /·³´¶/·³²±±²³³³µ//µ²¶/    /¯²³/     //·¶³³´º//·²³²²³²²³³³º/ "
-    " //µµ¶´±µµ´·//µ²³´/û/¶´³µ¸¸µ/ /µ²´¶/´¹¹´//»¹ºº¹·±¸¹¶´¹º/º²¸¶/û  /´·²º/º±¶±±"
-    "´¶¹ºº/¸³²¶¶/  /¶±µ¶¹/   /º¸¹¸³º¶·»/º¸´±´¹·´·²µ³º//»·´³ºº²º³¹º//µ²²´/û/³³µ¶¹"
-    "··µ//¶²µ¶/´¸·´//··º»/»³º//////º³¸¶/û  /´º¯¹/ºµ/±³´·////·´´¶º³//µ¹µ¶¸º/û /º¸"
-    "¶º//¹¶·º///¹²¹/¼¶/¶µ´¶//¹¶²¹¼ºµº¶¼-//·²³·/û/±²¶·¸·¸·µ/¶²¶¸/²·¶²/º··¹/û/¸/ûû"
-    "ûûû/ºµ¸¹/////²µ±¹/º¸/´´¶¶/ûû/¸´¶¶º¯µµ¶·¹¶¶º/û /¸¶²///¹¶¸¹////´¹/¼¹/¹´¶¸/º¶´"
-    "¯¹//¹/¹////¸´¶¹/û/¶µ´¹ºº¹¹¸¹º±¸º/±µ¶¯/º¹·¹/û »û//////º´¹·¶±³³´¯µµ¸//¹-¶²¶¹/"
-    "û /¶´¶´»±¹¹¶·¹¶º»/û/º¶¶µº²µ¸´¸º/¸¯±²²¯²´³´²¶//¹µ¶±¶µµµ±³¹¹///¹¹//û/¶µ¶º/¼»º"
-    "µ¶ºµ¹»/±´¶±/º¹¶º/û  û/¶ºµ¹/º²º¸º¶º´¹±³¶¸/û-/´¯¶¹/û /´´¶²»¹º¹¶¸´¶º¶/û/¹µ¶º/³"
-    "¶º²·º/¹²¹µ¹º²º¹´¯´//ºµ¶¯¶º´¹²¹º»/û////ûû/¶·¹¹//¼»³ºº´¹»/µ²µµ/º¶´¹/û   /¹»¶º"
-    "/º¶¶¹¼¹»´¼µ³¹¸/û /²²µ¶/û /²µ¶²/»º¶º/¹µº¹//º¶µº//¶ºº¯¶º/´´¹³//º/º³´²¹/º¶µ²º/"
-    "º»´º////ºµµº/ /´¸·¸/û/¼ºµ·´¹»/·±µº/»´´¸»/////·»´º/·¶´¹///¹/º¯¶¹/û /²··´/û /"
-    "µ²¶´//»º//¹²º¶//¹´µ/û/»/»´´»/·±¹´/ûûû/´´±¹//¹¶´º///¹/////µ²¹µ/û/´¸´¹/û /¼´¹"
-    "±¹»/´±¶»//¹¶·¼¹µ²´»º»´º/´¹´¹//ûûûº´²¹/û /»´¹²/û /¶²´´/û//û/¹²¹´/¹¶µ»/û //»²"
-    "´»/¶¶»´/û  /´´±·/û/¹´¹´´´³µ·¼///º///û/·¹´¹/û  /¼¹µº½/´¶·»/û/¹¸-»»²·»»¼·»/´º"
-    "·¹/ûû  º´²»/û /º´¹º/û /¹±¹²/û ûû/»·»µ/¹µ»/ûû  /»²·»/µ´¼´/û  /¹µ²º/û /¶»¸µ¸º"
-    "¸»¼//´/º´/û/¹º·¹/û   /-º¼-/´»µ/ûû/ºº»////»·-´//µ/µ»/û   º·º/ûû /»²»»/û /»·º"
-    "¶/û    /´/»//µ/ûû   /»·´//ºµ/·/û   /·³/ûû /¹»/·//·»/ûû/¶¸/ûû/¹»¹&ûû   /-»½/"
-    "/µ/º/û  /¼/ûûûû/µ/»//´/»/ûû   /º/ûû   -µ-/ûû  /µ»/ûû    /µ//û/»/û    /»´»/û"
-    "/»/º/û    /³/û  /º/û»//»/ûû ////û /»)»/û     /-/û/»//ûû  /»/û   /µ//û/»//ûû"
-    "     /ûû     /ûûû   /µ/ûû      /ûûû /ûû     /»/ûû /û»/û    /¸/û   /ûû/ûû/ûû"
-    "   ûûûû  /û//û      /ûû /ûûû    /ûû    /ûûû /ûûû       û       û      /ûû  "
-    "      û    û       /ûû   û/ûû     /ûû    û  û  û           û/ûû       û   û"
-    "       û      û    û                         û                       û     "
-    " û       û                         û                                       "
+    "                /\xb2\xaf\xb2\xb2/\xfb/\xb5\xb1\xb1\xb2/    /\xb3\xb1\xb3\xb6/\xfb                                   "
+    "                                                                 /\xb3\xb1\xb4\xb4/\xfb/\xb3\xb4"
+    "\xb3\xb2\xb5/   /\xb3\xb1\xb6\xb7//////   /////////////////   ///////////////// ///      ///    "
+    "    ////// /////////////     ///////////\xb3\xb1\xb4\xb6/\xfb/\xb4\xb4\xb3\xb3\xb7\xb5/  /\xb5\xb2\xb4\xb6/\xb6\xb4\xb4\xb7/\xfb//\xba\xb9\xb4\xb4\xaf"
+    "\xb1\xb1\xb3\xb3\xb5\xb9/\xb7\xb1\xb5\xb7/\xfb  /\xb7\xb3\xb4\xb6/\xb7\xb3\xb2\xb1\xb1\xb2\xb3\xb3\xb3\xb5//\xb5\xb2\xb6/    /\xaf\xb2\xb3/     //\xb7\xb6\xb3\xb3\xb4\xba//\xb7\xb2\xb3\xb2\xb2\xb3\xb2\xb2\xb3\xb3\xb3\xba/ "
+    " //\xb5\xb5\xb6\xb4\xb1\xb5\xb5\xb4\xb7//\xb5\xb2\xb3\xb4/\xfb/\xb6\xb4\xb3\xb5\xb8\xb8\xb5/ /\xb5\xb2\xb4\xb6/\xb4\xb9\xb9\xb4//\xbb\xb9\xba\xba\xb9\xb7\xb1\xb8\xb9\xb6\xb4\xb9\xba/\xba\xb2\xb8\xb6/\xfb  /\xb4\xb7\xb2\xba/\xba\xb1\xb6\xb1\xb1"
+    "\xb4\xb6\xb9\xba\xba/\xb8\xb3\xb2\xb6\xb6/  /\xb6\xb1\xb5\xb6\xb9/   /\xba\xb8\xb9\xb8\xb3\xba\xb6\xb7\xbb/\xba\xb8\xb4\xb1\xb4\xb9\xb7\xb4\xb7\xb2\xb5\xb3\xba//\xbb\xb7\xb4\xb3\xba\xba\xb2\xba\xb3\xb9\xba//\xb5\xb2\xb2\xb4/\xfb/\xb3\xb3\xb5\xb6\xb9"
+    "\xb7\xb7\xb5//\xb6\xb2\xb5\xb6/\xb4\xb8\xb7\xb4//\xb7\xb7\xba\xbb/\xbb\xb3\xba//////\xba\xb3\xb8\xb6/\xfb  /\xb4\xba\xaf\xb9/\xba\xb5/\xb1\xb3\xb4\xb7////\xb7\xb4\xb4\xb6\xba\xb3//\xb5\xb9\xb5\xb6\xb8\xba/\xfb /\xba\xb8"
+    "\xb6\xba//\xb9\xb6\xb7\xba///\xb9\xb2\xb9/\xbc\xb6/\xb6\xb5\xb4\xb6//\xb9\xb6\xb2\xb9\xbc\xba\xb5\xba\xb6\xbc-//\xb7\xb2\xb3\xb7/\xfb/\xb1\xb2\xb6\xb7\xb8\xb7\xb8\xb7\xb5/\xb6\xb2\xb6\xb8/\xb2\xb7\xb6\xb2/\xba\xb7\xb7\xb9/\xfb/\xb8/\xfb\xfb"
+    "\xfb\xfb\xfb/\xba\xb5\xb8\xb9/////\xb2\xb5\xb1\xb9/\xba\xb8/\xb4\xb4\xb6\xb6/\xfb\xfb/\xb8\xb4\xb6\xb6\xba\xaf\xb5\xb5\xb6\xb7\xb9\xb6\xb6\xba/\xfb /\xb8\xb6\xb2///\xb9\xb6\xb8\xb9////\xb4\xb9/\xbc\xb9/\xb9\xb4\xb6\xb8/\xba\xb6\xb4"
+    "\xaf\xb9//\xb9/\xb9////\xb8\xb4\xb6\xb9/\xfb/\xb6\xb5\xb4\xb9\xba\xba\xb9\xb9\xb8\xb9\xba\xb1\xb8\xba/\xb1\xb5\xb6\xaf/\xba\xb9\xb7\xb9/\xfb \xbb\xfb//////\xba\xb4\xb9\xb7\xb6\xb1\xb3\xb3\xb4\xaf\xb5\xb5\xb8//\xb9-\xb6\xb2\xb6\xb9/"
+    "\xfb /\xb6\xb4\xb6\xb4\xbb\xb1\xb9\xb9\xb6\xb7\xb9\xb6\xba\xbb/\xfb/\xba\xb6\xb6\xb5\xba\xb2\xb5\xb8\xb4\xb8\xba/\xb8\xaf\xb1\xb2\xb2\xaf\xb2\xb4\xb3\xb4\xb2\xb6//\xb9\xb5\xb6\xb1\xb6\xb5\xb5\xb5\xb1\xb3\xb9\xb9///\xb9\xb9//\xfb/\xb6\xb5\xb6\xba/\xbc\xbb\xba"
+    "\xb5\xb6\xba\xb5\xb9\xbb/\xb1\xb4\xb6\xb1/\xba\xb9\xb6\xba/\xfb  \xfb/\xb6\xba\xb5\xb9/\xba\xb2\xba\xb8\xba\xb6\xba\xb4\xb9\xb1\xb3\xb6\xb8/\xfb-/\xb4\xaf\xb6\xb9/\xfb /\xb4\xb4\xb6\xb2\xbb\xb9\xba\xb9\xb6\xb8\xb4\xb6\xba\xb6/\xfb/\xb9\xb5\xb6\xba/\xb3"
+    "\xb6\xba\xb2\xb7\xba/\xb9\xb2\xb9\xb5\xb9\xba\xb2\xba\xb9\xb4\xaf\xb4//\xba\xb5\xb6\xaf\xb6\xba\xb4\xb9\xb2\xb9\xba\xbb/\xfb////\xfb\xfb/\xb6\xb7\xb9\xb9//\xbc\xbb\xb3\xba\xba\xb4\xb9\xbb/\xb5\xb2\xb5\xb5/\xba\xb6\xb4\xb9/\xfb   /\xb9\xbb\xb6\xba"
+    "/\xba\xb6\xb6\xb9\xbc\xb9\xbb\xb4\xbc\xb5\xb3\xb9\xb8/\xfb /\xb2\xb2\xb5\xb6/\xfb /\xb2\xb5\xb6\xb2/\xbb\xba\xb6\xba/\xb9\xb5\xba\xb9//\xba\xb6\xb5\xba//\xb6\xba\xba\xaf\xb6\xba/\xb4\xb4\xb9\xb3//\xba/\xba\xb3\xb4\xb2\xb9/\xba\xb6\xb5\xb2\xba/"
+    "\xba\xbb\xb4\xba////\xba\xb5\xb5\xba/ /\xb4\xb8\xb7\xb8/\xfb/\xbc\xba\xb5\xb7\xb4\xb9\xbb/\xb7\xb1\xb5\xba/\xbb\xb4\xb4\xb8\xbb/////\xb7\xbb\xb4\xba/\xb7\xb6\xb4\xb9///\xb9/\xba\xaf\xb6\xb9/\xfb /\xb2\xb7\xb7\xb4/\xfb /"
+    "\xb5\xb2\xb6\xb4//\xbb\xba//\xb9\xb2\xba\xb6//\xb9\xb4\xb5/\xfb/\xbb/\xbb\xb4\xb4\xbb/\xb7\xb1\xb9\xb4/\xfb\xfb\xfb/\xb4\xb4\xb1\xb9//\xb9\xb6\xb4\xba///\xb9/////\xb5\xb2\xb9\xb5/\xfb/\xb4\xb8\xb4\xb9/\xfb /\xbc\xb4\xb9"
+    "\xb1\xb9\xbb/\xb4\xb1\xb6\xbb//\xb9\xb6\xb7\xbc\xb9\xb5\xb2\xb4\xbb\xba\xbb\xb4\xba/\xb4\xb9\xb4\xb9//\xfb\xfb\xfb\xba\xb4\xb2\xb9/\xfb /\xbb\xb4\xb9\xb2/\xfb /\xb6\xb2\xb4\xb4/\xfb//\xfb/\xb9\xb2\xb9\xb4/\xb9\xb6\xb5\xbb/\xfb //\xbb\xb2"
+    "\xb4\xbb/\xb6\xb6\xbb\xb4/\xfb  /\xb4\xb4\xb1\xb7/\xfb/\xb9\xb4\xb9\xb4\xb4\xb4\xb3\xb5\xb7\xbc///\xba///\xfb/\xb7\xb9\xb4\xb9/\xfb  /\xbc\xb9\xb5\xba\xbd/\xb4\xb6\xb7\xbb/\xfb/\xb9\xb8-\xbb\xbb\xb2\xb7\xbb\xbb\xbc\xb7\xbb/\xb4\xba"
+    "\xb7\xb9/\xfb\xfb  \xba\xb4\xb2\xbb/\xfb /\xba\xb4\xb9\xba/\xfb /\xb9\xb1\xb9\xb2/\xfb \xfb\xfb/\xbb\xb7\xbb\xb5/\xb9\xb5\xbb/\xfb\xfb  /\xbb\xb2\xb7\xbb/\xb5\xb4\xbc\xb4/\xfb  /\xb9\xb5\xb2\xba/\xfb /\xb6\xbb\xb8\xb5\xb8\xba"
+    "\xb8\xbb\xbc//\xb4/\xba\xb4/\xfb/\xb9\xba\xb7\xb9/\xfb   /-\xba\xbc-/\xb4\xbb\xb5/\xfb\xfb/\xba\xba\xbb////\xbb\xb7-\xb4//\xb5/\xb5\xbb/\xfb   \xba\xb7\xba/\xfb\xfb /\xbb\xb2\xbb\xbb/\xfb /\xbb\xb7\xba"
+    "\xb6/\xfb    /\xb4/\xbb//\xb5/\xfb\xfb   /\xbb\xb7\xb4//\xba\xb5/\xb7/\xfb   /\xb7\xb3/\xfb\xfb /\xb9\xbb/\xb7//\xb7\xbb/\xfb\xfb/\xb6\xb8/\xfb\xfb/\xb9\xbb\xb9&\xfb\xfb   /-\xbb\xbd/"
+    "/\xb5/\xba/\xfb  /\xbc/\xfb\xfb\xfb\xfb/\xb5/\xbb//\xb4/\xbb/\xfb\xfb   /\xba/\xfb\xfb   -\xb5-/\xfb\xfb  /\xb5\xbb/\xfb\xfb    /\xb5//\xfb/\xbb/\xfb    /\xbb\xb4\xbb/\xfb"
+    "/\xbb/\xba/\xfb    /\xb3/\xfb  /\xba/\xfb\xbb//\xbb/\xfb\xfb ////\xfb /\xbb)\xbb/\xfb     /-/\xfb/\xbb//\xfb\xfb  /\xbb/\xfb   /\xb5//\xfb/\xbb//\xfb\xfb"
+    "     /\xfb\xfb     /\xfb\xfb\xfb   /\xb5/\xfb\xfb      /\xfb\xfb\xfb /\xfb\xfb     /\xbb/\xfb\xfb /\xfb\xbb/\xfb    /\xb8/\xfb   /\xfb\xfb/\xfb\xfb/\xfb\xfb"
+    "   \xfb\xfb\xfb\xfb  /\xfb//\xfb      /\xfb\xfb /\xfb\xfb\xfb    /\xfb\xfb    /\xfb\xfb\xfb /\xfb\xfb\xfb       \xfb       \xfb      /\xfb\xfb  "
+    "      \xfb    \xfb       /\xfb\xfb   \xfb/\xfb\xfb     /\xfb\xfb    \xfb  \xfb  \xfb           \xfb/\xfb\xfb       \xfb   \xfb"
+    "       \xfb      \xfb    \xfb                         \xfb                       \xfb     "
+    " \xfb       \xfb                         \xfb                                       "
     "                                                                           "
     "     ";
 
@@ -645,190 +645,190 @@ int lsrght[] =
     251, 251, 251, 251, 251, 251, 251, 251, 251
 };
 
-char *savecaret = "////³//³//³//³//³//³//³////";
+char *savecaret = "////\xb3//\xb3//\xb3//\xb3//\xb3//\xb3//\xb3////";
 
 char *smallcharset[] =
 {
     // 0 = '!'
-    "     //// /±±/û/µ²/û/µ±/û////û/µ³/û////û ûûûû     ",
-    // 1 = '”'
-    "/////// /µ³/µ³/û//¶//¶/û //////û  ûûûûûû                                   "
+    "     //// /\xb1\xb1/\xfb/\xb5\xb2/\xfb/\xb5\xb1/\xfb////\xfb/\xb5\xb3/\xfb////\xfb \xfb\xfb\xfb\xfb     ",
+    // 1 = '\x94'
+    "/////// /\xb5\xb3/\xb5\xb3/\xfb//\xb6//\xb6/\xfb //////\xfb  \xfb\xfb\xfb\xfb\xfb\xfb                                   "
     "     ",
     // 2 = '#'
-    "         /////  //µ/´// /´±±±´/û//±/±//û/µ±±±´/û//´/´//û /////ûû  ûûûûû    "
+    "         /////  //\xb5/\xb4// /\xb4\xb1\xb1\xb1\xb4/\xfb//\xb1/\xb1//\xfb/\xb5\xb1\xb1\xb1\xb4/\xfb//\xb4/\xb4//\xfb /////\xfb\xfb  \xfb\xfb\xfb\xfb\xfb    "
     "     ",
     // 3 = '$'
-    "  ///    //µ/// /¹µ²µ¹/û/µ/²//ûû/¹µ²µ¹/  //¹/µ/û/¹µ²µ¹/û///µ//ûû û///ûû    "
-    "ûûû  ",
+    "  ///    //\xb5/// /\xb9\xb5\xb2\xb5\xb9/\xfb/\xb5/\xb2//\xfb\xfb/\xb9\xb5\xb2\xb5\xb9/  //\xb9/\xb5/\xfb/\xb9\xb5\xb2\xb5\xb9/\xfb///\xb5//\xfb\xfb \xfb///\xfb\xfb    "
+    "\xfb\xfb\xfb  ",
     // 4 = '%'
-    "          ///  ///  /±/û/²³/û ////µµ·/û  û/µ´·/ûû  /¶´·////  /µ·/û/±/û ///û"
-    "û///û  ûûû  ûûû          ",
+    "          ///  ///  /\xb1/\xfb/\xb2\xb3/\xfb ////\xb5\xb5\xb7/\xfb  \xfb/\xb5\xb4\xb7/\xfb\xfb  /\xb6\xb4\xb7////  /\xb5\xb7/\xfb/\xb1/\xfb ///\xfb"
+    "\xfb///\xfb  \xfb\xfb\xfb  \xfb\xfb\xfb          ",
     // 5 = '&'
-    "           ////    /¸µ¶¹/   /³-´º/û /»µµ¶/ûû /¶¶-µ´// /»·¶´´´/û ///////û  û"
-    "ûûûûûû         ",
-    // 6 = '’'
-    "//// /µ³/û//³/û ///û  ûûû                         ",
+    "           ////    /\xb8\xb5\xb6\xb9/   /\xb3-\xb4\xba/\xfb /\xbb\xb5\xb5\xb6/\xfb\xfb /\xb6\xb6-\xb5\xb4// /\xbb\xb7\xb6\xb4\xb4\xb4/\xfb ///////\xfb  \xfb"
+    "\xfb\xfb\xfb\xfb\xfb\xfb         ",
+    // 6 = '\x92'
+    "//// /\xb5\xb3/\xfb//\xb3/\xfb ///\xfb  \xfb\xfb\xfb                         ",
     // 7 = '('
-    "       //// /º²±/û/¸µ//û/¸µ/ûû/¸µ// /º¸³/û ////û  ûûûû      ",
+    "       //// /\xba\xb2\xb1/\xfb/\xb8\xb5//\xfb/\xb8\xb5/\xfb\xfb/\xb8\xb5// /\xba\xb8\xb3/\xfb ////\xfb  \xfb\xfb\xfb\xfb      ",
     // 8 = ')'
-    "      ////  /±²º/ //µ¸/û /¶¸/û//¶¸/û/³¶º/û////ûû ûûûû       ",
+    "      ////  /\xb1\xb2\xba/ //\xb5\xb8/\xfb /\xb6\xb8/\xfb//\xb6\xb8/\xfb/\xb3\xb6\xba/\xfb////\xfb\xfb \xfb\xfb\xfb\xfb       ",
     // 9 = '*'
-    "           /      /¶/    /¶²¶/  /¸²²²¸/  /¸²¸/ûû  /¸/ûû    /ûû      û           ",
+    "           /      /\xb6/    /\xb6\xb2\xb6/  /\xb8\xb2\xb2\xb2\xb8/  /\xb8\xb2\xb8/\xfb\xfb  /\xb8/\xfb\xfb    /\xfb\xfb      \xfb           ",
     // 10 = '+'
-    "             ///  //¶// /¶¶¶/û//¶//û ///ûû  ûûû             ",
+    "             ///  //\xb6// /\xb6\xb6\xb6/\xfb//\xb6//\xfb ///\xfb\xfb  \xfb\xfb\xfb             ",
     // 11 = ','
-    "                         //// /µ³/û//³/û ///û  ûûû",
+    "                         //// /\xb5\xb3/\xfb//\xb3/\xfb ///\xfb  \xfb\xfb\xfb",
     // 12 = '-'
-    "                  ///// /±±±/û/////û ûûûûû                  ",
+    "                  ///// /\xb1\xb1\xb1/\xfb/////\xfb \xfb\xfb\xfb\xfb\xfb                  ",
     // 13 = '.'
-    "                         //// /µ³/û////û ûûûû     ",
+    "                         //// /\xb5\xb3/\xfb////\xfb \xfb\xfb\xfb\xfb     ",
     // 14 = '/'
-    "            ///    /µ¶/û  /µ¶¹/û /µ¶¹/ûû/´¶¹/ûû /¸º/ûû  ///ûû    ûûû       "
+    "            ///    /\xb5\xb6/\xfb  /\xb5\xb6\xb9/\xfb /\xb5\xb6\xb9/\xfb\xfb/\xb4\xb6\xb9/\xfb\xfb /\xb8\xba/\xfb\xfb  ///\xfb\xfb    \xfb\xfb\xfb       "
     "     ",
     // 15 = '0'
-    "          //////  //¸µµ¸// /¸³¹¹´¸/û/¸µ//²¶/û/¸´¹¹´¸/û//¸µµ¸//û //////ûû  û"
-    "ûûûûû          ",
+    "          //////  //\xb8\xb5\xb5\xb8// /\xb8\xb3\xb9\xb9\xb4\xb8/\xfb/\xb8\xb5//\xb2\xb6/\xfb/\xb8\xb4\xb9\xb9\xb4\xb8/\xfb//\xb8\xb5\xb5\xb8//\xfb //////\xfb\xfb  \xfb"
+    "\xfb\xfb\xfb\xfb\xfb          ",
     // 16 = '1'
-    "       //// //±±/û/¶µ³/û//µ¶/û /µµ/û /µ³/û ////û  ûûûû      ",
+    "       //// //\xb1\xb1/\xfb/\xb6\xb5\xb3/\xfb//\xb5\xb6/\xfb /\xb5\xb5/\xfb /\xb5\xb3/\xfb ////\xfb  \xfb\xfb\xfb\xfb      ",
     // 17 = '2'
-    "         ///////  /µ´µ²³¼/ ///¼¹³¹/û/¼·µ´µ¼/û/µ´////ûû/µ´µ³±µ/ ////////û ûû"
-    "ûûûûûû         ",
+    "         ///////  /\xb5\xb4\xb5\xb2\xb3\xbc/ ///\xbc\xb9\xb3\xb9/\xfb/\xbc\xb7\xb5\xb4\xb5\xbc/\xfb/\xb5\xb4////\xfb\xfb/\xb5\xb4\xb5\xb3\xb1\xb5/ ////////\xfb \xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb\xfb         ",
     // 18 = '3'
-    "         //////   /¸³³´¹/   ///¹³¹/  /´´´²·/û ///¹µº/û/·´²µ·/ûû//////ûû  ûû"
-    "ûûûû           ",
+    "         //////   /\xb8\xb3\xb3\xb4\xb9/   ///\xb9\xb3\xb9/  /\xb4\xb4\xb4\xb2\xb7/\xfb ///\xb9\xb5\xba/\xfb/\xb7\xb4\xb2\xb5\xb7/\xfb\xfb//////\xfb\xfb  \xfb\xfb"
+    "\xfb\xfb\xfb\xfb           ",
     // 19 = '4'
-    "        /////// /³´/´´/û/³µ/³³/û/³³±±³/û////²´/û ûû/³´/û   ////û    ûûûû   "
+    "        /////// /\xb3\xb4/\xb4\xb4/\xfb/\xb3\xb5/\xb3\xb3/\xfb/\xb3\xb3\xb1\xb1\xb3/\xfb////\xb2\xb4/\xfb \xfb\xfb/\xb3\xb4/\xfb   ////\xfb    \xfb\xfb\xfb\xfb   "
     "     ",
     // 20 = '5'
-    "        /////// /¶²²²´/û/¶²///ûû/¶²²µ¹/ //¼¼´²/û/¸±³µ¹/û//////ûû ûûûûûû    "
+    "        /////// /\xb6\xb2\xb2\xb2\xb4/\xfb/\xb6\xb2///\xfb\xfb/\xb6\xb2\xb2\xb5\xb9/ //\xbc\xbc\xb4\xb2/\xfb/\xb8\xb1\xb3\xb5\xb9/\xfb//////\xfb\xfb \xfb\xfb\xfb\xfb\xfb\xfb    "
     "     ",
     // 21 = '6'
-    "           //////  /·´²²¹/û/·´»///ûû/·²´²²»/ /·²//±¸/û /··²²»/û  /////ûû   "
-    "ûûûûû          ",
+    "           //////  /\xb7\xb4\xb2\xb2\xb9/\xfb/\xb7\xb4\xbb///\xfb\xfb/\xb7\xb2\xb4\xb2\xb2\xbb/ /\xb7\xb2//\xb1\xb8/\xfb /\xb7\xb7\xb2\xb2\xbb/\xfb  /////\xfb\xfb   "
+    "\xfb\xfb\xfb\xfb\xfb          ",
     // 22 = '7'
-    "         ///////  /µ´µ²²·/ ////¹¶µ/û ûûû/µ´/û    /µ²/û    /µ³/û    ////û   "
-    "  ûûûû         ",
+    "         ///////  /\xb5\xb4\xb5\xb2\xb2\xb7/ ////\xb9\xb6\xb5/\xfb \xfb\xfb\xfb/\xb5\xb4/\xfb    /\xb5\xb2/\xfb    /\xb5\xb3/\xfb    ////\xfb   "
+    "  \xfb\xfb\xfb\xfb         ",
     // 23 = '8'
-    "          //////  /º·³´µº/ /º´//µº/û /´¶¶´/ûû/º´//´º/ /º···µº/û //////ûû  û"
-    "ûûûûû          ",
+    "          //////  /\xba\xb7\xb3\xb4\xb5\xba/ /\xba\xb4//\xb5\xba/\xfb /\xb4\xb6\xb6\xb4/\xfb\xfb/\xba\xb4//\xb4\xba/ /\xba\xb7\xb7\xb7\xb5\xba/\xfb //////\xfb\xfb  \xfb"
+    "\xfb\xfb\xfb\xfb\xfb          ",
     // 24 = '9'
-    "          /////   /»´°³·/  /¶±//µº/  »¶¶¶´·/û////»´·/û/¹²²´·/ûû//////ûû  ûû"
-    "ûûûû           ",
+    "          /////   /\xbb\xb4\xb0\xb3\xb7/  /\xb6\xb1//\xb5\xba/  \xbb\xb6\xb6\xb6\xb4\xb7/\xfb////\xbb\xb4\xb7/\xfb/\xb9\xb2\xb2\xb4\xb7/\xfb\xfb//////\xfb\xfb  \xfb\xfb"
+    "\xfb\xfb\xfb\xfb           ",
     // 25 = ':'
-    "     //// /±¸/û////û ûûûû//// /²¸/û////û ûûûû     ",
+    "     //// /\xb1\xb8/\xfb////\xfb \xfb\xfb\xfb\xfb//// /\xb2\xb8/\xfb////\xfb \xfb\xfb\xfb\xfb     ",
     // 26 = ';'
-    "          //// /±±/û////û////û/µ³/û//³/û ///û  ûûû",
+    "          //// /\xb1\xb1/\xfb////\xfb////\xfb/\xb5\xb3/\xfb//\xb3/\xfb ///\xfb  \xfb\xfb\xfb",
     // 27 = '<'
-    "         //   /µ/û /µ´/û/µµ/ûû /µ´/   /µ/û   //û    ûû      ",
+    "         //   /\xb5/\xfb /\xb5\xb4/\xfb/\xb5\xb5/\xfb\xfb /\xb5\xb4/   /\xb5/\xfb   //\xfb    \xfb\xfb      ",
     // 28 = '='
-    "            ///// /±±±/û/////û/µ³³/û/////û ûûûûû            ",
+    "            ///// /\xb1\xb1\xb1/\xfb/////\xfb/\xb5\xb3\xb3/\xfb/////\xfb \xfb\xfb\xfb\xfb\xfb            ",
     // 29 = '>'
-    "      //    /µ/   /´µ/   /µµ/ /´µ/ûû/µ/ûû //ûû   ûû         ",
+    "      //    /\xb5/   /\xb4\xb5/   /\xb5\xb5/ /\xb4\xb5/\xfb\xfb/\xb5/\xfb\xfb //\xfb\xfb   \xfb\xfb         ",
     // 30 = '?'
-    "         ///////  /µ´µ²³¶/ ////¶³¹/û/µµµµµ¹/û///////ûû/µ´µ/ûûû /////û    ûû"
-    "ûûû            ",
+    "         ///////  /\xb5\xb4\xb5\xb2\xb3\xb6/ ////\xb6\xb3\xb9/\xfb/\xb5\xb5\xb5\xb5\xb5\xb9/\xfb///////\xfb\xfb/\xb5\xb4\xb5/\xfb\xfb\xfb /////\xfb    \xfb\xfb"
+    "\xfb\xfb\xfb            ",
     // 31 = '@'
-    "  /////    /·²²²µ/  /·»////µ/ /²/»·²/²/û/²/²/²/¶/û/²/²²²¶»/û/·»//////û /·²²"
-    "²µ/ûû  /////ûû    ûûûûû  ",
+    "  /////    /\xb7\xb2\xb2\xb2\xb5/  /\xb7\xbb////\xb5/ /\xb2/\xbb\xb7\xb2/\xb2/\xfb/\xb2/\xb2/\xb2/\xb6/\xfb/\xb2/\xb2\xb2\xb2\xb6\xbb/\xfb/\xb7\xbb//////\xfb /\xb7\xb2\xb2"
+    "\xb2\xb5/\xfb\xfb  /////\xfb\xfb    \xfb\xfb\xfb\xfb\xfb  ",
     // 32 = 'A'
-    "           /////   /·²²²¶/ /º´//¶³/û/´·µµ´³/û/´·//´³/û/´·//´³/û////////û ûû"
-    "ûûûûûû         ",
+    "           /////   /\xb7\xb2\xb2\xb2\xb6/ /\xba\xb4//\xb6\xb3/\xfb/\xb4\xb7\xb5\xb5\xb4\xb3/\xfb/\xb4\xb7//\xb4\xb3/\xfb/\xb4\xb7//\xb4\xb3/\xfb////////\xfb \xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb\xfb         ",
     // 33 = 'B'
-    "         ///////  /¶³±²±¹/ ////º³¹/û/·µ¶µµ/ûû/µµ/º³·/ /µ´²²´»/û///////ûû ûû"
-    "ûûûûû          ",
+    "         ///////  /\xb6\xb3\xb1\xb2\xb1\xb9/ ////\xba\xb3\xb9/\xfb/\xb7\xb5\xb6\xb5\xb5/\xfb\xfb/\xb5\xb5/\xba\xb3\xb7/ /\xb5\xb4\xb2\xb2\xb4\xbb/\xfb///////\xfb\xfb \xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb          ",
     // 34 = 'C'
-    "           //////  /º³±±´/û/¹³³////û/¸µµ/ûûûû/º³³////  /ºµ±±¶/û  //////û   "
-    "ûûûûûû         ",
+    "           //////  /\xba\xb3\xb1\xb1\xb4/\xfb/\xb9\xb3\xb3////\xfb/\xb8\xb5\xb5/\xfb\xfb\xfb\xfb/\xba\xb3\xb3////  /\xba\xb5\xb1\xb1\xb6/\xfb  //////\xfb   "
+    "\xfb\xfb\xfb\xfb\xfb\xfb         ",
     // 35 = 'D'
-    "         //////   -¸²±´¹/  ////»¶¹/ /µµ//´¶/û/´²/»´¹/û/´²±³¹/ûû//////ûû  ûû"
-    "ûûûû           ",
+    "         //////   -\xb8\xb2\xb1\xb4\xb9/  ////\xbb\xb6\xb9/ /\xb5\xb5//\xb4\xb6/\xfb/\xb4\xb2/\xbb\xb4\xb9/\xfb/\xb4\xb2\xb1\xb3\xb9/\xfb\xfb//////\xfb\xfb  \xfb\xfb"
+    "\xfb\xfb\xfb\xfb           ",
     // 36 = 'E'
-    "           //////  /¹µ´³¸/û/¹³³¹///û/·²³´µ¹/û/ºµ³¹///û /·³µ´·/û  //////û   "
-    "ûûûûûû         ",
+    "           //////  /\xb9\xb5\xb4\xb3\xb8/\xfb/\xb9\xb3\xb3\xb9///\xfb/\xb7\xb2\xb3\xb4\xb5\xb9/\xfb/\xba\xb5\xb3\xb9///\xfb /\xb7\xb3\xb5\xb4\xb7/\xfb  //////\xfb   "
+    "\xfb\xfb\xfb\xfb\xfb\xfb         ",
     // 37 = 'F'
-    "         //////// /µ´±±±±/û/µµ¹////û/µµµµµ/ûû/µ¶////û /µ·/ûûûû ////û     ûû"
-    "ûû             ",
+    "         //////// /\xb5\xb4\xb1\xb1\xb1\xb1/\xfb/\xb5\xb5\xb9////\xfb/\xb5\xb5\xb5\xb5\xb5/\xfb\xfb/\xb5\xb6////\xfb /\xb5\xb7/\xfb\xfb\xfb\xfb ////\xfb     \xfb\xfb"
+    "\xfb\xfb             ",
     // 38 = 'G'
-    "           //////  /·´²²²/û/·´¸////û/·´»/´´/û/ºµ¸/¸²/û /··²µ²/û  //////û   "
-    "ûûûûûû         ",
+    "           //////  /\xb7\xb4\xb2\xb2\xb2/\xfb/\xb7\xb4\xb8////\xfb/\xb7\xb4\xbb/\xb4\xb4/\xfb/\xba\xb5\xb8/\xb8\xb2/\xfb /\xb7\xb7\xb2\xb5\xb2/\xfb  //////\xfb   "
+    "\xfb\xfb\xfb\xfb\xfb\xfb         ",
     // 39 = 'H'
-    "         //////// /´·//·²/û/´·//µ´/û/´´µµµ²/û/´·//·²/û/´·//¸³/û////////û ûû"
-    "ûûûûûû         ",
+    "         //////// /\xb4\xb7//\xb7\xb2/\xfb/\xb4\xb7//\xb5\xb4/\xfb/\xb4\xb4\xb5\xb5\xb5\xb2/\xfb/\xb4\xb7//\xb7\xb2/\xfb/\xb4\xb7//\xb8\xb3/\xfb////////\xfb \xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb\xfb         ",
     // 40 = 'I'
-    "     //// /·±/û/·²/û/·³/û/·²/û/·³/û////û ûûûû     ",
+    "     //// /\xb7\xb1/\xfb/\xb7\xb2/\xfb/\xb7\xb3/\xfb/\xb7\xb2/\xfb/\xb7\xb3/\xfb////\xfb \xfb\xfb\xfb\xfb     ",
     // 41 = 'J'
-    "             ////     /²¸/û    /µ¸/û    /¶¸/û////¹¶¸/û/¶³³³¶º/û///////ûû ûû"
-    "ûûûûû          ",
+    "             ////     /\xb2\xb8/\xfb    /\xb5\xb8/\xfb    /\xb6\xb8/\xfb////\xb9\xb6\xb8/\xfb/\xb6\xb3\xb3\xb3\xb6\xba/\xfb///////\xfb\xfb \xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb          ",
     // 42 = 'K'
-    "         //// /// /·±//±¶/û/·´/²¸/ûû/·²´´/ûû /·²/¸³/  /·³//¸³/ ////û///û ûû"
-    "ûû ûûû         ",
+    "         //// /// /\xb7\xb1//\xb1\xb6/\xfb/\xb7\xb4/\xb2\xb8/\xfb\xfb/\xb7\xb2\xb4\xb4/\xfb\xfb /\xb7\xb2/\xb8\xb3/  /\xb7\xb3//\xb8\xb3/ ////\xfb///\xfb \xfb\xfb"
+    "\xfb\xfb \xfb\xfb\xfb         ",
     // 43 = 'L'
-    "         ////     /´²/û    /¸µ/û    /¸µ/û    /¸µ¹//// /º¸³³³³/û ///////û  û"
-    "ûûûûûû         ",
+    "         ////     /\xb4\xb2/\xfb    /\xb8\xb5/\xfb    /\xb8\xb5/\xfb    /\xb8\xb5\xb9//// /\xba\xb8\xb3\xb3\xb3\xb3/\xfb ///////\xfb  \xfb"
+    "\xfb\xfb\xfb\xfb\xfb\xfb         ",
     // 44 = 'M'
-    "           //   //  /¹´/ /³¹/ /·´·/¹µ³/û/µ¶·´·µ·/û/¶¸/¶/µ·/û/µ·///µ·/û////û"
-    "////û ûûûû ûûûû          ",
+    "           //   //  /\xb9\xb4/ /\xb3\xb9/ /\xb7\xb4\xb7/\xb9\xb5\xb3/\xfb/\xb5\xb6\xb7\xb4\xb7\xb5\xb7/\xfb/\xb6\xb8/\xb6/\xb5\xb7/\xfb/\xb5\xb7///\xb5\xb7/\xfb////\xfb"
+    "////\xfb \xfb\xfb\xfb\xfb \xfb\xfb\xfb\xfb          ",
     // 45 = 'N'
-    "          /////// /º´»/´³/û/µµ¸/¶³/û/µ´··³³/û/µ·»´²µ/û/µ¸/º²»/û///////ûû ûû"
-    "ûûûûû          ",
+    "          /////// /\xba\xb4\xbb/\xb4\xb3/\xfb/\xb5\xb5\xb8/\xb6\xb3/\xfb/\xb5\xb4\xb7\xb7\xb3\xb3/\xfb/\xb5\xb7\xbb\xb4\xb2\xb5/\xfb/\xb5\xb8/\xba\xb2\xbb/\xfb///////\xfb\xfb \xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb          ",
     // 46 = 'O'
-    "          //////  //¸µµ¸// /¸³¹¹´¸/û/¸µ//²¶/û/¸´¹¹´¸/û//¸µµ¸//û //////ûû  û"
-    "ûûûûû          ",
+    "          //////  //\xb8\xb5\xb5\xb8// /\xb8\xb3\xb9\xb9\xb4\xb8/\xfb/\xb8\xb5//\xb2\xb6/\xfb/\xb8\xb4\xb9\xb9\xb4\xb8/\xfb//\xb8\xb5\xb5\xb8//\xfb //////\xfb\xfb  \xfb"
+    "\xfb\xfb\xfb\xfb\xfb          ",
     // 47 = 'P'
-    "         ///////  /·²±±±º/ ////½µµ/û/±±±³³º/û/±±////ûû/µµ/ûûûû ////û     ûû"
-    "ûû             ",
+    "         ///////  /\xb7\xb2\xb1\xb1\xb1\xba/ ////\xbd\xb5\xb5/\xfb/\xb1\xb1\xb1\xb3\xb3\xba/\xfb/\xb1\xb1////\xfb\xfb/\xb5\xb5/\xfb\xfb\xfb\xfb ////\xfb     \xfb\xfb"
+    "\xfb\xfb             ",
     // 48 = 'Q'
-    "           ////    /¶µµ¶/  /¶³¹¹µ¶/ /¶µ//µ¶/û/º³¹¹·º/û /ºµµ·/ûû  ///··/    "
-    "ûû///û      ûûû",
+    "           ////    /\xb6\xb5\xb5\xb6/  /\xb6\xb3\xb9\xb9\xb5\xb6/ /\xb6\xb5//\xb5\xb6/\xfb/\xba\xb3\xb9\xb9\xb7\xba/\xfb /\xba\xb5\xb5\xb7/\xfb\xfb  ///\xb7\xb7/    "
+    "\xfb\xfb///\xfb      \xfb\xfb\xfb",
     // 49 = 'R'
-    "         ///////  /·²±±±º/ ////ºµ¸/û/³±±±³/ûû/µ±/¸µº/ /µµ//µ¸/û////////û ûû"
-    "ûûûûûû         ",
+    "         ///////  /\xb7\xb2\xb1\xb1\xb1\xba/ ////\xba\xb5\xb8/\xfb/\xb3\xb1\xb1\xb1\xb3/\xfb\xfb/\xb5\xb1/\xb8\xb5\xba/ /\xb5\xb5//\xb5\xb8/\xfb////////\xfb \xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb\xfb         ",
     // 50 = 'S'
-    "         ////// /¹¶²´¹/û/¶¶////û/¹µ¶¸¹/û////´¶/û/¸±³¶¹/û//////ûû ûûûûûû    "
+    "         ////// /\xb9\xb6\xb2\xb4\xb9/\xfb/\xb6\xb6////\xfb/\xb9\xb5\xb6\xb8\xb9/\xfb////\xb4\xb6/\xfb/\xb8\xb1\xb3\xb6\xb9/\xfb//////\xfb\xfb \xfb\xfb\xfb\xfb\xfb\xfb    "
     "     ",
     // 51 = 'T'
-    "         //////// /°°±±´´/û///µ²///û û/µ³/ûûû  /µ²/û    /µ³/û    ////û     "
-    "ûûûû           ",
+    "         //////// /\xb0\xb0\xb1\xb1\xb4\xb4/\xfb///\xb5\xb2///\xfb \xfb/\xb5\xb3/\xfb\xfb\xfb  /\xb5\xb2/\xfb    /\xb5\xb3/\xfb    ////\xfb     "
+    "\xfb\xfb\xfb\xfb           ",
     // 52 = 'U'
-    "         //////// /·²//´¶/û/¶µ//µ·/û/·µ//µ·/û/ºµ³³µº/û /º··º/ûû  ////ûû    "
-    "ûûûû           ",
+    "         //////// /\xb7\xb2//\xb4\xb6/\xfb/\xb6\xb5//\xb5\xb7/\xfb/\xb7\xb5//\xb5\xb7/\xfb/\xba\xb5\xb3\xb3\xb5\xba/\xfb /\xba\xb7\xb7\xba/\xfb\xfb  ////\xfb\xfb    "
+    "\xfb\xfb\xfb\xfb           ",
     // 53 = 'V'
-    "        /////// /´±/²µ/û/´²/³µ/û /´¹²/ûû /¶²¶/û   /´/ûû   ///û     ûûû     "
+    "        /////// /\xb4\xb1/\xb2\xb5/\xfb/\xb4\xb2/\xb3\xb5/\xfb /\xb4\xb9\xb2/\xfb\xfb /\xb6\xb2\xb6/\xfb   /\xb4/\xfb\xfb   ///\xfb     \xfb\xfb\xfb     "
     "     ",
     // 54 = 'W'
-    "          //// //// /³³///³º/û/¶´/³/´¸/û/¶³º´º´¸/û/¸³¶´¶µ¸/û/¸²¶/µ¸¸/û ///û"
-    "///ûû  ûûû ûûû           ",
+    "          //// //// /\xb3\xb3///\xb3\xba/\xfb/\xb6\xb4/\xb3/\xb4\xb8/\xfb/\xb6\xb3\xba\xb4\xba\xb4\xb8/\xfb/\xb8\xb3\xb6\xb4\xb6\xb5\xb8/\xfb/\xb8\xb2\xb6/\xb5\xb8\xb8/\xfb ///\xfb"
+    "///\xfb\xfb  \xfb\xfb\xfb \xfb\xfb\xfb           ",
     // 55 = 'X'
-    "          //// //// /³µ·/·µ·/û /¶·µ·¶/ûû  /·µµ/ûû  /¶·µ·¶/  /³µ·/·µ·/ ////û"
-    "////û ûûûû ûûûû          ",
+    "          //// //// /\xb3\xb5\xb7/\xb7\xb5\xb7/\xfb /\xb6\xb7\xb5\xb7\xb6/\xfb\xfb  /\xb7\xb5\xb5/\xfb\xfb  /\xb6\xb7\xb5\xb7\xb6/  /\xb3\xb5\xb7/\xb7\xb5\xb7/ ////\xfb"
+    "////\xfb \xfb\xfb\xfb\xfb \xfb\xfb\xfb\xfb          ",
     // 56 = 'Y'
-    "         //////// /±±//²²/û/´³//³¶/û /µ±±µ/ûû  /·¶/ûû   /·µ/û    ////û     "
-    "ûûûû           ",
+    "         //////// /\xb1\xb1//\xb2\xb2/\xfb/\xb4\xb3//\xb3\xb6/\xfb /\xb5\xb1\xb1\xb5/\xfb\xfb  /\xb7\xb6/\xfb\xfb   /\xb7\xb5/\xfb    ////\xfb     "
+    "\xfb\xfb\xfb\xfb           ",
     // 57 = 'Z'
-    "        /////// /µ´²²¶/û///´¶º/û /´µº/ûû/¶´º/// /µ´³±µ/û///////û ûûûûûûû   "
+    "        /////// /\xb5\xb4\xb2\xb2\xb6/\xfb///\xb4\xb6\xba/\xfb /\xb4\xb5\xba/\xfb\xfb/\xb6\xb4\xba/// /\xb5\xb4\xb3\xb1\xb5/\xfb///////\xfb \xfb\xfb\xfb\xfb\xfb\xfb\xfb   "
     "     ",
     // 58 = '['
-    "       //// /º²±/û/¸µ//û/¸µ/ûû/¸µ// /º¸³/û ////û  ûûûû      ",
-    // 59 = '\'
-    "        ///     /¶³/    /¹³µ/    /¹µµ/    /¹µ´/    /¹´/û    ///û     ûûû   "
+    "       //// /\xba\xb2\xb1/\xfb/\xb8\xb5//\xfb/\xb8\xb5/\xfb\xfb/\xb8\xb5// /\xba\xb8\xb3/\xfb ////\xfb  \xfb\xfb\xfb\xfb      ",
+    // 59 = '\\'
+    "        ///     /\xb6\xb3/    /\xb9\xb3\xb5/    /\xb9\xb5\xb5/    /\xb9\xb5\xb4/    /\xb9\xb4/\xfb    ///\xfb     \xfb\xfb\xfb   "
     "     ",
     // 60 = ']'
-    "      ////  /±²º/ //µ¸/û /¶¸/û//¶¸/û/³¶º/û////ûû ûûûû       ",
+    "      ////  /\xb1\xb2\xba/ //\xb5\xb8/\xfb /\xb6\xb8/\xfb//\xb6\xb8/\xfb/\xb3\xb6\xba/\xfb////\xfb\xfb \xfb\xfb\xfb\xfb       ",
     // 61 = '^'
-    "           /      /¸/    /¸µ¸/  /¸´/´¸/ ///û///û ûûû ûûû                   "
+    "           /      /\xb8/    /\xb8\xb5\xb8/  /\xb8\xb4/\xb4\xb8/ ///\xfb///\xfb \xfb\xfb\xfb \xfb\xfb\xfb                   "
     "     ",
     // 62 = '_'
-    "                                             //////// /±±±±±±/û////////û ûû"
-    "ûûûûûû         ",
+    "                                             //////// /\xb1\xb1\xb1\xb1\xb1\xb1/\xfb////////\xfb \xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb\xfb         ",
     // 63 = '|'
-    "     //// /±±/û/µ³/û/µ¶/û/µµ/û/µ³/û////û ûûûû     ",
-    // 64 = '“'
-    "/////// /³µ/³µ/û/¶//¶//û//////ûû ûûûûûû                                    "
+    "     //// /\xb1\xb1/\xfb/\xb5\xb3/\xfb/\xb5\xb6/\xfb/\xb5\xb5/\xfb/\xb5\xb3/\xfb////\xfb \xfb\xfb\xfb\xfb     ",
+    // 64 = '\x93'
+    "/////// /\xb3\xb5/\xb3\xb5/\xfb/\xb6//\xb6//\xfb//////\xfb\xfb \xfb\xfb\xfb\xfb\xfb\xfb                                    "
     "     ",
-    // 65 = '‘'
-    "//// /³µ/û/³//û///ûû ûûû                          ",
-    // 66 = '°'
-    "       ///  /µ³µ/ /³/³/û/µ³µ/û ///ûû  ûûû                   ",
+    // 65 = '\x91'
+    "//// /\xb3\xb5/\xfb/\xb3//\xfb///\xfb\xfb \xfb\xfb\xfb                          ",
+    // 66 = '\xb0'
+    "       ///  /\xb5\xb3\xb5/ /\xb3/\xb3/\xfb/\xb5\xb3\xb5/\xfb ///\xfb\xfb  \xfb\xfb\xfb                   ",
 
 };
 
@@ -837,19 +837,19 @@ char *underscores1 =
     "                ////                                         ////////      "
     "                 ////////                                                  "
     "             ////////                                                      "
-    "                                   /³³³³³/û                                "
-    "      /³³³³³/û                      /³³/û                                  "
-    "      /³³³³³³/û                      /³³³³³³/û                             "
-    "                                 /³³³³³³/û                                 "
-    "                                                       ///////û            "
-    "                          ///////û                      ////û              "
-    "                          ////////û                      ////////û         "
-    "                                                     ////////û             "
+    "                                   /\xb3\xb3\xb3\xb3\xb3/\xfb                                "
+    "      /\xb3\xb3\xb3\xb3\xb3/\xfb                      /\xb3\xb3/\xfb                                  "
+    "      /\xb3\xb3\xb3\xb3\xb3\xb3/\xfb                      /\xb3\xb3\xb3\xb3\xb3\xb3/\xfb                             "
+    "                                 /\xb3\xb3\xb3\xb3\xb3\xb3/\xfb                                 "
+    "                                                       ///////\xfb            "
+    "                          ///////\xfb                      ////\xfb              "
+    "                          ////////\xfb                      ////////\xfb         "
+    "                                                     ////////\xfb             "
     "                                                                           "
-    " ûûûûûûû                                       ûûûûûûû                     "
-    "  ûûûû                                         ûûûûûûûû                    "
-    "   ûûûûûûûû                                                               û"
-    "ûûûûûûû                                                                    "
+    " \xfb\xfb\xfb\xfb\xfb\xfb\xfb                                       \xfb\xfb\xfb\xfb\xfb\xfb\xfb                     "
+    "  \xfb\xfb\xfb\xfb                                         \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                    "
+    "   \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                                               \xfb"
+    "\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                                                    "
     "     ";
 
 char *underscores2 =
@@ -857,17 +857,17 @@ char *underscores2 =
     "             ////                                         ////////         "
     "              ////////                                                     "
     "          ////////                                                         "
-    "                                /³³³³³/û                                   "
-    "   /³³³³³/û                      /³³/û                                     "
-    "   /³³³³³³/û                      /³³³³³³/û                                "
-    "                              /³³³³³³/û                                    "
-    "                                                    ///////û               "
-    "                       ///////û                      ////û                 "
-    "                       ////////û                      ////////û            "
-    "                                                  ////////û                "
-    "                                                                         ûû"
-    "ûûûûû                                       ûûûûûûû                       û"
-    "ûûû                                         ûûûûûûûû                       "
-    "ûûûûûûûû                                                               ûûûû"
-    "ûûûû                                                                       "
+    "                                /\xb3\xb3\xb3\xb3\xb3/\xfb                                   "
+    "   /\xb3\xb3\xb3\xb3\xb3/\xfb                      /\xb3\xb3/\xfb                                     "
+    "   /\xb3\xb3\xb3\xb3\xb3\xb3/\xfb                      /\xb3\xb3\xb3\xb3\xb3\xb3/\xfb                                "
+    "                              /\xb3\xb3\xb3\xb3\xb3\xb3/\xfb                                    "
+    "                                                    ///////\xfb               "
+    "                       ///////\xfb                      ////\xfb                 "
+    "                       ////////\xfb                      ////////\xfb            "
+    "                                                  ////////\xfb                "
+    "                                                                         \xfb\xfb"
+    "\xfb\xfb\xfb\xfb\xfb                                       \xfb\xfb\xfb\xfb\xfb\xfb\xfb                       \xfb"
+    "\xfb\xfb\xfb                                         \xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                       "
+    "\xfb\xfb\xfb\xfb\xfb\xfb\xfb\xfb                                                               \xfb\xfb\xfb\xfb"
+    "\xfb\xfb\xfb\xfb                                                                       "
     "     ";
